@@ -1,50 +1,43 @@
 using HeheGames.Simple_Airplane_Controller;
 using TMPro;
 using UnityEngine;
-using Zenject;
 
 public class UIController : MonoBehaviour
 {
-    private IStats _stats;
+    [SerializeField] private Stats _stats;
 
-    [SerializeField] 
-    private TMP_Text scoreText;
+    [SerializeField] private TMP_Text scoreText;
 
-    [SerializeField] 
-    private TMP_Text levelText;
+    [SerializeField] private TMP_Text levelText;
 
-    [SerializeField] 
-    private AirPlaneController planeController;
+    [SerializeField] private AirPlaneController planeController;
 
-    [SerializeField] 
-    private TMP_Text speedText;
+    [SerializeField] private TMP_Text speedText;
 
-    [SerializeField] 
-    private GameObject playerPanel;
+    [SerializeField] private GameObject playerPanel;
+
+    [SerializeField] private GameObject settingPanel;
     
-    [SerializeField] 
-    private GameObject settingPanel;
-
-    [Inject]
-    private void Construct(IStats stats)
+    private void OnEnable()
     {
-        _stats = stats;
+        if (_stats != null)
+        {
+            _stats.UpdateScore += ShowScore;
+            _stats.UpdateLevel += ShowLevel;
+        }
     }
 
     private void Update()
     {
-        ShowScoreAndLevel();
         ShowSpeed();
     }
 
     public void Play()
     {
-        
     }
 
     public void Setting()
     {
-        
     }
 
     public void Quit()
@@ -52,14 +45,28 @@ public class UIController : MonoBehaviour
         Application.Quit();
     }
 
-    private void ShowScoreAndLevel()
+    private void OnDisable()
     {
-        scoreText.text = $"Score: {_stats.Score}";
-        levelText.text = $"Level: {_stats.Level}";
+        if (_stats != null)
+        {
+            _stats.UpdateScore -= ShowScore;
+            _stats.UpdateLevel -= ShowLevel;
+        }
+    }
+
+    private void ShowScore(float score)
+    {
+        scoreText.text = $"Score: {score}";
+    }
+
+    private void ShowLevel(float level)
+    {
+        levelText.text = $"Level: {level}";
     }
 
     private void ShowSpeed()
     {
         speedText.text = $"Speed: {planeController.CurrentSpeed()}";
     }
+
 }

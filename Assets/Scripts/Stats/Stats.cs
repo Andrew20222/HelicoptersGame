@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Stats : MonoBehaviour, IStats
@@ -13,9 +14,14 @@ public class Stats : MonoBehaviour, IStats
 
     public float Level => level;
 
+    public Action<float> UpdateScore;
+    public Action<float> UpdateLevel;
     public void ScoreUpdate(float checkPointScore)
     {
         score += checkPointScore;
+        UpdateScore?.Invoke(score);
+        
+        CheckScore();
     }
 
     public void CheckScore()
@@ -23,11 +29,13 @@ public class Stats : MonoBehaviour, IStats
         if (score > MAX_SCORE_LEVEL)
         {
             LevelUpdate();
+            UpdateLevel?.Invoke(level);
         }
     }
 
     private void LevelUpdate()
     {
         level++;
+        UpdateLevel?.Invoke(level);
     }
 }
