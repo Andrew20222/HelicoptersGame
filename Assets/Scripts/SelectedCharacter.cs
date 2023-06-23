@@ -1,24 +1,19 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SelectedCharacter : MonoBehaviour
 {
+    [SerializeField] private GameObject[] allCharacters;
+    [SerializeField] private Button arrowToLeft;
+    [SerializeField] private Button arrowToRight;
+    [SerializeField] private Button buttonSelectCharacter;
+    [SerializeField] private TMP_Text textSelectCharacter;
+    [SerializeField] private Button playButton;
+    
     private int _indexCharacter;
     private int _indexCurrentCharacter;
-
-    [SerializeField] 
-    private GameObject[] allCharacters;
-
-    [SerializeField]
-    private GameObject arrowToLeft;
-    [SerializeField]
-    private GameObject arrowToRight;
-
-    [SerializeField] 
-    private GameObject buttonSelectCharacter;
-    [SerializeField] 
-    private GameObject textSelectCharacter;
-    
     private void Start()
     {
         if (PlayerPrefs.HasKey("CurrentCharacter"))
@@ -31,13 +26,23 @@ public class SelectedCharacter : MonoBehaviour
             _indexCharacter = 0;
             PlayerPrefs.SetInt("CurrentCharacter", _indexCharacter);
         }
-        
+
         SetActiveCharacter();
 
-        buttonSelectCharacter.SetActive(false);
-        textSelectCharacter.SetActive(true);
+        buttonSelectCharacter.gameObject.SetActive(false);
+        textSelectCharacter.gameObject.SetActive(true);
 
         UpdateArrowVisibility();
+    }
+
+
+    private void Update()
+    {
+        playButton.onClick.AddListener(ChangeScene);
+        arrowToLeft.onClick.AddListener(ArrowLeft);
+        arrowToRight.onClick.AddListener(ArrowRight);
+        buttonSelectCharacter.onClick.AddListener(SelectCharacter);
+        
     }
 
     private void SetActiveCharacter()
@@ -57,11 +62,11 @@ public class SelectedCharacter : MonoBehaviour
 
     private void UpdateArrowVisibility()
     {
-        arrowToLeft.SetActive(_indexCharacter > 0);
-        arrowToRight.SetActive(_indexCharacter < allCharacters.Length - 1);
+        arrowToLeft.gameObject.SetActive(_indexCharacter > 0);
+        arrowToRight.gameObject.SetActive(_indexCharacter < allCharacters.Length - 1);
     }
 
-    public void ArrowRight()
+    private void ArrowRight()
     {
         if (_indexCharacter < allCharacters.Length - 1)
         {
@@ -72,18 +77,18 @@ public class SelectedCharacter : MonoBehaviour
 
             if (_indexCurrentCharacter == _indexCharacter)
             {
-                buttonSelectCharacter.SetActive(false);
-                textSelectCharacter.SetActive(true);
+                buttonSelectCharacter.gameObject.SetActive(false);
+                textSelectCharacter.gameObject.SetActive(true);
             }
             else
             {
-                buttonSelectCharacter.SetActive(true);
-                textSelectCharacter.SetActive(false);
+                buttonSelectCharacter.gameObject.SetActive(true);
+                textSelectCharacter.gameObject.SetActive(false);
             }
         }
     }
-    
-    public void ArrowLeft()
+
+    private void ArrowLeft()
     {
         if (_indexCharacter > 0)
         {
@@ -94,26 +99,26 @@ public class SelectedCharacter : MonoBehaviour
 
             if (_indexCurrentCharacter == _indexCharacter)
             {
-                buttonSelectCharacter.SetActive(false);
-                textSelectCharacter.SetActive(true);
+                buttonSelectCharacter.gameObject.SetActive(false);
+                textSelectCharacter.gameObject.SetActive(true);
             }
             else
             {
-                buttonSelectCharacter.SetActive(true);
-                textSelectCharacter.SetActive(false);
+                buttonSelectCharacter.gameObject.SetActive(true);
+                textSelectCharacter.gameObject.SetActive(false);
             }
         }
     }
 
-    public void SelectCharacter()
+    private void SelectCharacter()
     {
         PlayerPrefs.SetInt("CurrentCharacter", _indexCharacter);
         _indexCurrentCharacter = _indexCharacter;
-        buttonSelectCharacter.SetActive(false);
-        textSelectCharacter.SetActive(true);
+        buttonSelectCharacter.gameObject.SetActive(false);
+        textSelectCharacter.gameObject.SetActive(true);
     }
 
-    public void ChangeScene()
+    private void ChangeScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

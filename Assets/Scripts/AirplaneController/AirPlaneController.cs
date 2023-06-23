@@ -1,11 +1,14 @@
 ﻿using System.Collections.Generic;
 using HeneGames.Airplane;
+using StateMachine;
+using StateMachines;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace HeheGames.Simple_Airplane_Controller
 {
     [RequireComponent(typeof(Rigidbody))]
-    public partial class AirPlaneController : MonoBehaviour, IMovable, IAudioSystem
+    public class AirPlaneController : MonoBehaviour, IMovable, IAudioSystem
     {
 
         #region Private variables
@@ -30,7 +33,7 @@ namespace HeheGames.Simple_Airplane_Controller
 
         #endregion
 
-        public AirplaneState airplaneState;
+        [FormerlySerializedAs("airplaneState")] public AirplaneStateB airplaneStateB;
 
         [Header("Wing trail effects")]
         [Range(0.01f, 1f)]
@@ -101,8 +104,22 @@ namespace HeheGames.Simple_Airplane_Controller
         [Header("Colliders")]
         [SerializeField] private Transform crashCollidersRoot;
 
+        //feature times
+        private AirStateMachine _SM;
+        private FlyState _flyState;
+        private TakeoffState _takeoffState;
+        private LandState _landState;
+
         private void Awake()
         {
+            _SM = new AirStateMachine();
+            _flyState = new FlyState(this);
+            _takeoffState = new TakeoffState(this);
+            _landState = new LandState(this);
+            _SM.Initialize(_landState);
+            
+            Debug.Log(_SM.CurrentState);
+            
             //Setup speeds
             _maxSpeed = defaultSpeed;
             _currentSpeed = defaultSpeed;
@@ -118,26 +135,41 @@ namespace HeheGames.Simple_Airplane_Controller
 
         private void Update()
         {
-            switch (airplaneState)
+            if (Input.GetKey(KeyCode.W))
             {
-                case AirplaneState.Flying:
-                    FlyingUpdate();
-                    break;
-
-                case AirplaneState.Landing:
-                    LandingUpdate();
-                    break;
-
-                case AirplaneState.Takeoff:
-                    TakeoffUpdate();
-                    break;
+                _SM.ChangeState(_flyState);
             }
+            else
+            {
+                _SM.ChangeState(_landState);
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                Stop();
+            }
+            
+            Debug.Log(_SM.CurrentState);
+            // switch (airplaneStateB)
+            // {
+            //     case AirplaneStateB.Flying:
+            //         FlyingUpdate();
+            //         break;
+            //
+            //     case AirplaneStateB.Landing:
+            //         LandingUpdate();
+            //         break;
+            //
+            //     case AirplaneStateB.Takeoff:
+            //         TakeoffUpdate();
+            //         break;
+            // }
         }
 
         #region Flying State
 
         // ReSharper disable Unity.PerformanceAnalysis
-        private void FlyingUpdate()
+        public void FlyingUpdate()
         {
             UpdatePropellersAndLights();
 
@@ -158,6 +190,13 @@ namespace HeheGames.Simple_Airplane_Controller
             // }
 
             //Crash
+        }
+        
+        
+
+        public void Stop()
+        {
+            Move(0,0,false,false,false);
         }
 
         public void SidewaysForceCalculation()
@@ -275,7 +314,7 @@ namespace HeheGames.Simple_Airplane_Controller
         #region Landing State
         
         //My trasform is runway landing adjuster child
-        private void LandingUpdate()
+        public void LandingUpdate()
         {
             UpdatePropellersAndLights();
 
@@ -292,7 +331,7 @@ namespace HeheGames.Simple_Airplane_Controller
 
         #region Takeoff State
 
-        private void TakeoffUpdate()
+        public void TakeoffUpdate()
         {
             UpdatePropellersAndLights();
 
@@ -315,12 +354,12 @@ namespace HeheGames.Simple_Airplane_Controller
         #endregion
 
         #region Audio
-        public void AudioSetVolumeWithState(AirplaneState airplaneState, AudioSource engineSoundSource, float defaultSoundPitch, float maxEngineSound, float turboSoundPitch)
+        public void AudioSetVolumeWithState(AirplaneStateB airplaneStateB, AudioSource engineSoundSource, float defaultSoundPitch, float maxEngineSound, float turboSoundPitch)
         {
             if (engineSoundSource == null)
                 return;
 
-            if (airplaneState == AirplaneState.Flying)
+            if (airplaneStateB == AirplaneStateB.Flying)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, defaultSoundPitch, 10f * Time.deltaTime);
 
@@ -333,12 +372,12 @@ namespace HeheGames.Simple_Airplane_Controller
                     engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, maxEngineSound, 1f * Time.deltaTime);
                 }
             }
-            else if (airplaneState == AirplaneState.Landing)
+            else if (airplaneStateB == AirplaneStateB.Landing)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, defaultSoundPitch, 1f * Time.deltaTime);
                 engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, 0f, 1f * Time.deltaTime);
             }
-            else if (airplaneState == AirplaneState.Takeoff)
+            else if (airplaneStateB == AirplaneStateB.Takeoff)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, turboSoundPitch, 1f * Time.deltaTime);
                 engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, maxEngineSound, 1f * Time.deltaTime);

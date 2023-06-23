@@ -1,13 +1,14 @@
 using HeneGames.Airplane;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Zenject;
 
 namespace AudioSystem
 {
     public class AudioSystem : MonoBehaviour
     {
-        [SerializeField]
-        private AirplaneState airplaneState;
+        [FormerlySerializedAs("airplaneState")] [SerializeField]
+        private AirplaneStateB airplaneStateB;
         [SerializeField]
         private AudioSource engineSoundSource;
         [SerializeField]
@@ -26,7 +27,7 @@ namespace AudioSystem
         }
         private void Update()
         {
-            _audioSystem.AudioSetVolumeWithState(airplaneState, engineSoundSource, defaultSoundPitch, maxEngineSound, turboSoundPitch);
+            _audioSystem.AudioSetVolumeWithState(airplaneStateB, engineSoundSource, defaultSoundPitch, maxEngineSound, turboSoundPitch);
         }
     }
 }

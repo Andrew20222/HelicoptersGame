@@ -1,6 +1,6 @@
 ﻿namespace HeneGames.Airplane
 {
-    public enum AirplaneState
+    public enum AirplaneStateB
     {
         Flying,
         Landing,
