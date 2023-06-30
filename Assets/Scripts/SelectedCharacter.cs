@@ -33,18 +33,13 @@ public class SelectedCharacter : MonoBehaviour
         textSelectCharacter.gameObject.SetActive(true);
 
         UpdateArrowVisibility();
-    }
-
-
-    private void Update()
-    {
+        
         playButton.onClick.AddListener(ChangeScene);
         arrowToLeft.onClick.AddListener(ArrowLeft);
         arrowToRight.onClick.AddListener(ArrowRight);
         buttonSelectCharacter.onClick.AddListener(SelectCharacter);
-        
     }
-
+    
     private void SetActiveCharacter()
     {
         for (int i = 0; i < allCharacters.Length; i++)
@@ -121,5 +116,13 @@ public class SelectedCharacter : MonoBehaviour
     private void ChangeScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void OnDisable()
+    {
+        playButton.onClick.RemoveListener(ChangeScene);
+        arrowToLeft.onClick.RemoveListener(ArrowLeft);
+        arrowToRight.onClick.RemoveListener(ArrowRight);
+        buttonSelectCharacter.onClick.RemoveListener(SelectCharacter);
     }
 }

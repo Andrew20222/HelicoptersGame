@@ -23,6 +23,8 @@ namespace HeheGames.Simple_Airplane_Controller
         private bool _planeIsDead;
 
         private Rigidbody _rb;
+        private Runway currentRunway;
+        private List<SimpleAirPlaneCollider> airPlaneColliders = new();
 
         //Input variables
         private float _inputH;
@@ -32,8 +34,6 @@ namespace HeheGames.Simple_Airplane_Controller
         private bool _inputYawRight;
 
         #endregion
-
-        [FormerlySerializedAs("airplaneState")] public AirplaneStateB airplaneStateB;
 
         [Header("Wing trail effects")]
         [Range(0.01f, 1f)]
@@ -103,12 +103,17 @@ namespace HeheGames.Simple_Airplane_Controller
 
         [Header("Colliders")]
         [SerializeField] private Transform crashCollidersRoot;
+        
+        [Header("Takeoff settings")]
+        [Tooltip("How far must the plane be from the runway before it can be controlled again")]
+        [SerializeField] private float takeoffLenght = 30f;
 
         //feature times
-        private AirStateMachine _SM;
+        public AirStateMachine _SM;
         private FlyState _flyState;
         private TakeoffState _takeoffState;
         private LandState _landState;
+        public State currentState;
 
         private void Awake()
         {
@@ -138,37 +143,24 @@ namespace HeheGames.Simple_Airplane_Controller
             if (Input.GetKey(KeyCode.W))
             {
                 _SM.ChangeState(_flyState);
+                currentState = _flyState;
             }
             else
             {
                 _SM.ChangeState(_landState);
+                currentState = _landState;
             }
 
             if (Input.GetKey(KeyCode.A))
             {
-                Stop();
+                currentState = _takeoffState;
             }
             
             Debug.Log(_SM.CurrentState);
-            // switch (airplaneStateB)
-            // {
-            //     case AirplaneStateB.Flying:
-            //         FlyingUpdate();
-            //         break;
-            //
-            //     case AirplaneStateB.Landing:
-            //         LandingUpdate();
-            //         break;
-            //
-            //     case AirplaneStateB.Takeoff:
-            //         TakeoffUpdate();
-            //         break;
-            // }
         }
 
         #region Flying State
-
-        // ReSharper disable Unity.PerformanceAnalysis
+        
         public void FlyingUpdate()
         {
             UpdatePropellersAndLights();
@@ -184,19 +176,10 @@ namespace HeheGames.Simple_Airplane_Controller
             }
 
 
-            // if (!_planeIsDead && HitSometing())
-            // {
-            //     Crash();
-            // }
-
-            //Crash
-        }
-        
-        
-
-        public void Stop()
-        {
-            Move(0,0,false,false,false);
+            if (!_planeIsDead && HitSometing())
+            {
+                Crash();
+            }
         }
 
         public void SidewaysForceCalculation()
@@ -313,7 +296,10 @@ namespace HeheGames.Simple_Airplane_Controller
 
         #region Landing State
         
-        //My trasform is runway landing adjuster child
+        public void AddLandingRunway(Runway _landingThisRunway)
+        {
+            currentRunway = _landingThisRunway;
+        }
         public void LandingUpdate()
         {
             UpdatePropellersAndLights();
@@ -336,10 +322,10 @@ namespace HeheGames.Simple_Airplane_Controller
             UpdatePropellersAndLights();
 
             //Reset colliders
-            // foreach (SimpleAirPlaneCollider airPlaneCollider in _airPlaneColliders)
-            // {
-            //     airPlaneCollider.collideSometing = false;
-            // }
+            foreach (SimpleAirPlaneCollider airPlaneCollider in airPlaneColliders)
+            {
+                airPlaneCollider.collideSometing = false;
+            }
 
             //Accelerate
             if (_currentSpeed < turboSpeed)
@@ -349,6 +335,13 @@ namespace HeheGames.Simple_Airplane_Controller
 
             //Move forward
             transform.Translate(Vector3.forward * (_currentSpeed * Time.deltaTime));
+            
+            float _distanceToRunway = Vector3.Distance(transform.position, currentRunway.transform.position);
+            if(_distanceToRunway > takeoffLenght)
+            {
+                currentRunway = null;
+                currentState = _takeoffState;
+            }
         }
 
         #endregion
@@ -359,7 +352,7 @@ namespace HeheGames.Simple_Airplane_Controller
             if (engineSoundSource == null)
                 return;
 
-            if (airplaneStateB == AirplaneStateB.Flying)
+            if (currentState == _flyState)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, defaultSoundPitch, 10f * Time.deltaTime);
 
@@ -372,12 +365,12 @@ namespace HeheGames.Simple_Airplane_Controller
                     engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, maxEngineSound, 1f * Time.deltaTime);
                 }
             }
-            else if (airplaneStateB == AirplaneStateB.Landing)
+            else if (currentState == _landState)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, defaultSoundPitch, 1f * Time.deltaTime);
                 engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, 0f, 1f * Time.deltaTime);
             }
-            else if (airplaneStateB == AirplaneStateB.Takeoff)
+            else if (currentState == _takeoffState)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, turboSoundPitch, 1f * Time.deltaTime);
                 engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, maxEngineSound, 1f * Time.deltaTime);
@@ -420,13 +413,13 @@ namespace HeheGames.Simple_Airplane_Controller
             }
         }
 
-        private void SetupColliders(Transform root)
+        private void SetupColliders(Transform _root)
         {
-            if (root == null)
+            if (_root == null)
                 return;
 
             //Get colliders from root transform
-            Collider[] colliders = root.GetComponentsInChildren<Collider>();
+            Collider[] colliders = _root.GetComponentsInChildren<Collider>();
 
             //If there are colliders put components in them
             for (int i = 0; i < colliders.Length; i++)
@@ -434,17 +427,17 @@ namespace HeheGames.Simple_Airplane_Controller
                 //Change collider to trigger
                 colliders[i].isTrigger = true;
 
-                GameObject currentObject = colliders[i].gameObject;
+                GameObject _currentObject = colliders[i].gameObject;
 
                 //Add airplane collider to it and put it on the list
-                // //SimpleAirPlaneCollider _airplaneCollider = currentObject.AddComponent<SimpleAirPlaneCollider>();
-                // _airPlaneColliders.Add(_airplaneCollider);
-                //
-                // //Add airplane conroller reference to collider
+                SimpleAirPlaneCollider _airplaneCollider = _currentObject.AddComponent<SimpleAirPlaneCollider>();
+                airPlaneColliders.Add(_airplaneCollider);
+
+                //Add airplane conroller reference to collider
                 // _airplaneCollider.controller = this;
 
                 //Add rigid body to it
-                Rigidbody _rb = currentObject.AddComponent<Rigidbody>();
+                Rigidbody _rb = _currentObject.AddComponent<Rigidbody>();
                 _rb.useGravity = false;
                 _rb.isKinematic = true;
                 _rb.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
@@ -483,35 +476,37 @@ namespace HeheGames.Simple_Airplane_Controller
             }
         }
 
-        // private bool HitSometing()
-        // {
-        //     for (int i = 0; i < _airPlaneColliders.Count; i++)
-        //     {
-        //         if (_airPlaneColliders[i].collideSometing)
-        //         {
-        //             //Reset colliders
-        //             // foreach(SimpleAirPlaneCollider airPlaneCollider in _airPlaneColliders)
-        //             // {
-        //             //     airPlaneCollider.collideSometing = false;
-        //             // }
-        //
-        //             return true;
-        //         }
-        //     }
-        //
-        //     return false;
-        // }
+        private bool HitSometing()
+        {
+            for (int i = 0; i < airPlaneColliders.Count; i++)
+            {
+                if (airPlaneColliders[i].collideSometing)
+                {
+                    //Reset colliders
+                    foreach(SimpleAirPlaneCollider _airPlaneCollider in airPlaneColliders)
+                    {
+                        _airPlaneCollider.collideSometing = false;
+                    }
+
+                    return true;
+                }
+            }
+
+            return false;
+        }
 
         private void Crash()
         {
+            //Set rigidbody to non cinematic
             _rb.isKinematic = false;
             _rb.useGravity = true;
-            
-            // for (int i = 0; i < _airPlaneColliders.Count; i++)
-            // {
-            //     _airPlaneColliders[i].GetComponent<Collider>().isTrigger = false;
-            //     Destroy(_airPlaneColliders[i].GetComponent<Rigidbody>());
-            // }
+
+            //Change every collider trigger state and remove rigidbodys
+            for (int i = 0; i < airPlaneColliders.Count; i++)
+            {
+                airPlaneColliders[i].GetComponent<Collider>().isTrigger = false;
+                Destroy(airPlaneColliders[i].GetComponent<Rigidbody>());
+            }
 
             //Kill player
             _planeIsDead = true;

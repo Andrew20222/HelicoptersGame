@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using HeheGames.Simple_Airplane_Controller;
 using UnityEngine;
 
 
@@ -8,12 +9,11 @@ using UnityEngine;
         public bool collideSometing;
 
         [HideInInspector]
-        public SimpleAirPlaneController controller;
+        public AirPlaneController controller;
 
         private void OnTriggerEnter(Collider other)
         {
-            //Collide someting bad
-            if(other.gameObject.GetComponent<SimpleAirPlaneCollider>() == null && other.gameObject.GetComponent<LandingArea>() == null)
+            if(other.gameObject.GetComponent<AirPlaneController>() == null && other.gameObject.GetComponent<LandingArea>() == null)
             {
                 collideSometing = true;
             }

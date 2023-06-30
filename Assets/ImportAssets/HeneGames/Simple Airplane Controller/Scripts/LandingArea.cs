@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using HeheGames.Simple_Airplane_Controller;
+using StateMachine;
 using UnityEngine;
 
 public class LandingArea : MonoBehaviour
@@ -18,12 +20,12 @@ public class LandingArea : MonoBehaviour
                 //If direction is right start landing
                 if (_directionFloat > 0.5f)
                 {
-                    SimpleAirPlaneController _controller = _airPlaneCollider.controller;
+                    AirPlaneController _controller = _airPlaneCollider.controller;
 
                     runway.landingAdjuster.position = _controller.transform.position;
 
                     runway.AddAirplane(_controller);
-                    _controller._airplaneState = SimpleAirPlaneController.AirplaneState.Landing;
+                    _controller.currentState = new LandState(_controller);
                     _controller.AddLandingRunway(runway);
                 }
             }

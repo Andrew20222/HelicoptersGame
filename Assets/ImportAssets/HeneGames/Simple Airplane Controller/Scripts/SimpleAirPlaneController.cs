@@ -13,7 +13,7 @@ using StateMachine;
             Takeoff,
         }
 
-        public AirplaneState _airplaneState;
+        public State _airplaneState;
         #region Private variables
 
         private List<SimpleAirPlaneCollider> airPlaneColliders = new();
@@ -350,7 +350,7 @@ using StateMachine;
             if(_distanceToRunway > takeoffLenght)
             {
                 currentRunway = null;
-                _airplaneState = AirplaneState.Flying;
+              //  _airplaneState = 
             }
         }
 
@@ -362,7 +362,7 @@ using StateMachine;
             if (engineSoundSource == null)
                 return;
 
-            if (_airplaneState == AirplaneState.Flying)
+           // if (_airplaneState == AirplaneState.Flying)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, currentEngineSoundPitch, 10f * Time.deltaTime);
 
@@ -375,12 +375,12 @@ using StateMachine;
                     engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, maxEngineSound, 1f * Time.deltaTime);
                 }
             }
-            else if (_airplaneState == AirplaneState.Landing)
+           // else if (_airplaneState == AirplaneState.Landing)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, defaultSoundPitch, 1f * Time.deltaTime);
                 engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, 0f, 1f * Time.deltaTime);
             }
-            else if (_airplaneState == AirplaneState.Takeoff)
+           // else if (_airplaneState == AirplaneState.Takeoff)
             {
                 engineSoundSource.pitch = Mathf.Lerp(engineSoundSource.pitch, turboSoundPitch, 1f * Time.deltaTime);
                 engineSoundSource.volume = Mathf.Lerp(engineSoundSource.volume, maxEngineSound, 1f * Time.deltaTime);
@@ -444,7 +444,7 @@ using StateMachine;
                 airPlaneColliders.Add(_airplaneCollider);
 
                 //Add airplane conroller reference to collider
-                _airplaneCollider.controller = this;
+                // _airplaneCollider.controller = this;
 
                 //Add rigid body to it
                 Rigidbody _rb = _currentObject.AddComponent<Rigidbody>();

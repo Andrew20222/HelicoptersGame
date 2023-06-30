@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using HeheGames.Simple_Airplane_Controller;
+using StateMachine;
+using StateMachines;
 using UnityEngine;
 
 
@@ -9,7 +11,7 @@ using UnityEngine;
     {
         private bool landingCompleted;
         private float landingSpeed;
-        private SimpleAirPlaneController landingAirplaneController;
+        private AirPlaneController landingAirplaneController;
         private Vector3 landingAdjusterStartLocalPos;
 
         [Header("Input")]
@@ -54,11 +56,11 @@ using UnityEngine;
                     //Launch airplane
                     if (Input.GetKeyDown(launchKey))
                     {
-                        landingAirplaneController._airplaneState = SimpleAirPlaneController.AirplaneState.Takeoff;
+                        landingAirplaneController.currentState = new TakeoffState(landingAirplaneController);
                     }
 
                     //Reset runway if landing airplane is taking off
-                    if (landingAirplaneController._airplaneState == SimpleAirPlaneController.AirplaneState.Flying)
+                    if (landingAirplaneController.currentState == new FlyState(landingAirplaneController))
                     {
                         landingAirplaneController.transform.SetParent(null);
                         landingAirplaneController = null;
@@ -71,16 +73,18 @@ using UnityEngine;
         }
 
         //Landing area add airplane controller reference
-        public void AddAirplane(SimpleAirPlaneController _simpleAirPlane)
+        public void AddAirplane(AirPlaneController _simpleAirPlane)
         {
             landingAirplaneController = _simpleAirPlane;
         }
+
+        [SerializeField] private AirStateMachine stateMachine;
 
         public bool AirplaneLandingCompleted()
         {
             if (landingAirplaneController != null)
             {
-                if (landingAirplaneController._airplaneState != SimpleAirPlaneController.AirplaneState.Takeoff)
+                if (landingAirplaneController.currentState != new LandState(landingAirplaneController))
                 {
                     return landingCompleted;
                 }
@@ -103,7 +107,7 @@ using UnityEngine;
         {
             if (landingAirplaneController != null)
             {
-                if(landingAirplaneController._airplaneState == SimpleAirPlaneController.AirplaneState.Takeoff)
+                if(landingAirplaneController.currentState == new TakeoffState(landingAirplaneController))
                 {
                     return true;
                 }

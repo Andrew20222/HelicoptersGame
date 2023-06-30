@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,40 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &58522317 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3118200195582686184, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
-  m_PrefabInstance: {fileID: 696173061}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &58522321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58522317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b8ab2083151dc7468677210eb43d7f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &58522322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58522317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74a80d1ed590dd34dbc0eec0cdcaf4c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  airplaneState: 0
-  engineSoundSource: {fileID: 2086354263}
-  defaultSoundPitch: 1
-  maxEngineSound: 1
-  turboSoundPitch: 1.5
 --- !u!1001 &98294154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -174,15 +140,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2219171639273970214, guid: ac2cbe44320dc1e4a8bc3eaa98e3e65a, type: 3}
       propertyPath: m_Size.x
-      value: 40
+      value: 20.609251
       objectReference: {fileID: 0}
     - target: {fileID: 2219171639273970214, guid: ac2cbe44320dc1e4a8bc3eaa98e3e65a, type: 3}
       propertyPath: m_Size.y
-      value: 40
+      value: 11.646044
       objectReference: {fileID: 0}
     - target: {fileID: 2219171639273970214, guid: ac2cbe44320dc1e4a8bc3eaa98e3e65a, type: 3}
       propertyPath: m_Size.z
-      value: 15
+      value: 15.601678
       objectReference: {fileID: 0}
     - target: {fileID: 2219171639273970214, guid: ac2cbe44320dc1e4a8bc3eaa98e3e65a, type: 3}
       propertyPath: m_Center.x
@@ -280,10 +246,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -10.322
       objectReference: {fileID: 0}
-    - target: {fileID: 7306886757616339891, guid: ac2cbe44320dc1e4a8bc3eaa98e3e65a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac2cbe44320dc1e4a8bc3eaa98e3e65a, type: 3}
 --- !u!1 &363906080
@@ -304,7 +266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &363906081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -472,7 +434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5821500120853101657, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000014901159
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5821500120853101657, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.y
@@ -540,7 +502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5821500121592022942, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.036324948
+      value: -0.036324944
       objectReference: {fileID: 0}
     - target: {fileID: 5821500121592022942, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.y
@@ -549,10 +511,6 @@ PrefabInstance:
     - target: {fileID: 5821500121592022942, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.0000000054338463
-      objectReference: {fileID: 0}
-    - target: {fileID: 6923667052971952040, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6923667052971952042, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: orthographic size
@@ -585,10 +543,6 @@ PrefabInstance:
     - target: {fileID: 6923667052971952045, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.04582977
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793844478064349485, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
-      propertyPath: airplaneState
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793844478064349485, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: takeoffLenght
@@ -923,8 +877,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &2086354263 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3118200195265258894, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
-  m_PrefabInstance: {fileID: 696173061}
-  m_PrefabAsset: {fileID: 0}

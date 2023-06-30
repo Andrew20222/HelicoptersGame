@@ -1,4 +1,5 @@
 using System;
+using HeheGames.Simple_Airplane_Controller;
 using UnityEngine;
 using Zenject;
 
@@ -11,13 +12,13 @@ namespace Inputs
         private bool _inputYawLeft;
         private bool _inputYawRight;
         private bool _inputTurbo;
-        private IMovable _movable;
+        [SerializeField]private AirPlaneController _movable;
 
-        [Inject]
-        private void Construct(IMovable movable)
-        {
-            _movable = movable;
-        }
+        // [Inject]
+        // private void Construct(AirPlaneController movable)
+        // {
+        //     _movable = movable;
+        // }
 
         private void Update()
         {
@@ -37,7 +38,8 @@ namespace Inputs
 
         private void SetValueInputs()
         {
-            _movable.Move(_inputH, _inputV, _inputYawRight, _inputYawLeft, _inputTurbo);
+            if(!_movable.PlaneIsDead())
+                _movable.Move(_inputH, _inputV, _inputYawRight, _inputYawLeft, _inputTurbo);
         }
     }
 }

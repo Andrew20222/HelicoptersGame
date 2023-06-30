@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-using HeheGames.Simple_Airplane_Controller;
 
 namespace HeneGames.Airplane
 {
     public class SimpleAirplaneCamera : MonoBehaviour
     {
         [Header("References")]
-        [SerializeField] private AirPlaneController airPlaneController;
+        [SerializeField] private SimpleAirPlaneController airPlaneController;
         [SerializeField] private CinemachineFreeLook freeLook;
         [Header("Camera values")]
         [SerializeField] private float cameraDefaultFov = 60f;

@@ -17,7 +17,7 @@ namespace StateMachine
 
         public override void Exit()
         {
-            _player.Stop();
+            //
         }
     }
 }
