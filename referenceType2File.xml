@@ -1,0 +1,3907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>1f47b9a5e661d10478551b64d5d2077a</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2022-12-14T05:37:41+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>819fbc691afd94d41a9f34c79b985e35</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T05:37:41+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>06ad44d8cb2b78a4eafa909757fc17ba</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T05:37:41+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7055b3c635aad4c418aa2b6141a60cee</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2022-12-14T05:37:41+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5aeab01903d35f8429728feaa314d4a3</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2022-12-14T05:37:41+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fdcf3bfed63b12949898b1d2d1fa1154</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-14T05:37:41+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>325fb0e9bd879b440a9b5c077309c199</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5b634c456740a0e42928511e3f2ada75</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixtureSceneReference.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2f9f4a0ef011f8846b17c8dc23e69b11</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/TestFramework/ValidateOnlyAttribute.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e0464fe2b382d1d4babf13bf0c3fa044</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4101e443fc2ede94c99d4d759087cc44</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectTestUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>51305c7ccfc8a9f4390aeefc54674cde</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectUnitTestFixture.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3d9014e328d4ff04682edfaaa5bdad36</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/BindingUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fcb2e11e0ed56de48b0ba9b5e3ae10c9</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/EditorStaticInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>29f47f2a06418244e8fcbe27db1a0eea</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/ObjectGraphVisualizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>06d16f2f9107265428d41710db4cbb14</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/UnityInspectorListEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d45338750ad0b4f4b90ed09091927b46</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/ZenMenuItems.cs</fileName>
+    <timeStamp>2020-05-24T16:21:09+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f798e3a2f0079b840804c0516d265f03</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/ZenUnityEditorUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f1157303ef95f2448a355067327cb83a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/FactoryProviderWrapper.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>62c651ad6c58c1140ac224dc6284fa5e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/IFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>73ed4b67b639aaf4c94f61339a6ff413</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/KeyedFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>665a56f53857092408155478e576cfd0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/PlaceholderFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2a15cf923ae4d72418e9951480e9f178</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/PlaceholderFactoryBase.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>39782cb4430018d459f5707002dff73c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/PrefabFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5fd50037209abd647b7ae7391717f015</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/PrefabResourceFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2005ce29739317b48bcc3c06695da848</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Injection/InjectContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0ebfddbd9452a9c4cb6c9dfe7a25ea53</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Injection/InjectUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>54883063c774a244c898edbc91b859a0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Injection/LazyInject.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>65a9d43edcbe33640989f12f980de5d1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/IInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>743eef94d86c79e4189b311a7c7528ce</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d908209e11d07744483c5fea3b406f33</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/InstallerBase.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>724ff9f6c80e0b044b7db58730dc6075</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>93d53e91e1ef3484a99feb7aa58f2b63</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>00b9d7602aaf02748aa93779bbf29799</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97c39aeade32bd54c8754bc9d6da25ab</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0166d8ff8d905b048b2448179e1f5d11</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/ZenjectBinding.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b05e95f8fed82b244b78a5e2df541713</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/ZenjectManagersInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2968c9f42475ea146aec3ced9cbd99ad</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/Assert.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cf53ad544fd972d4eb4716fb02fb5e9e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/Func.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>68fac2f8aa1edec4b9ef45794638a59c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>622a24d4c6769414495ea1786bfee872</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/Log.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>da4e9bf39c1ac464d84d2f743a25f8d1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/MiscExtensions.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>de17d24691e2bfd458a9d10cb1d49098</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/PreserveAttribute.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2697c251f47f2bc40b32922c5a796f65</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/TypeExtensions.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>94a0a9a58e17e3d438c169678c9795f7</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/TypeStringFormatter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a3c968adce0a9a24e949dc4eedb496e8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Internal/ValuePair.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>05e8238358230bf4e9cbb692280d28f1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Main/BindingId.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>de4283f91e0232a4897afd2a0af141bc</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Main/DiContainer.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>27acc83df7708be4185afec9bd506165</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Main/IInstantiator.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c7bd2a03033e83a4c9dab4d27166b412</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Main/LazyInstanceInjector.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>75d6ff51a82574249bd77fb5fd40d948</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Main/LookupId.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3844511961cf2ee40948fbe1569a2f31</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Main/SingletonMarkRegistry.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1581703805dca9046a9197095cbbf3d1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Main/ZenjectSettings.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4a09a4770eaace44a84d9d627f0bd161</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/CachedOpenTypeProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e6e16beb21a2f0d4db901700c6ed3099</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/CachedProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ce3e2ecdd52e4db469d9bc497ff5e5f5</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/GetterProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eaf07c2b7ad9f684dac7f1da2ee67f5c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/IFactoryProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1d3d5b3bdf966444099f2dfdf3a313fd</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/InstanceProvider.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>438b6366f2f1221448e9a71e09ac0329</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/IProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2377e3000d1616e4d8cb29c183f216b4</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/IProviderExtensions.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dd9674ffe36a06141afeab1ebbc399f0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/MethodMultipleProviderUntyped.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>22a7321581383d141b4c11983b83e67b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/MethodProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0e5a590d4406d6e46ba319046057db53</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/MethodProviderMultiple.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eee2b774c35c53641b09b0c1e9620e03</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/MethodProviderSimple.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bddc7ee81ed8fd84cbf60eebf5cb3e41</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/MethodProviderUntyped.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eb5886f51fc492043bf8d0cc8f4daa2e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/MethodProviderWithContainer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6857585e55699ab4da01454c662e0e3b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PoolableMemoryPoolProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>278c72df466e8b049bc7ce6feb535cb1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ProviderUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>35df94e99ddd0c04c86cf0bcefa85ad8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ResolveProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f16c8e5eed02ac8478e8c236c1677db3</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ResourceProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dd4cee241217b5947b3a223dabefec0a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ScriptableObjectInstanceProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5753f1f4d468e7649b017dee98c6301d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ScriptableObjectResourceProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d569147915c61b64f9841ca4948f7d3f</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerDependencyProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>84c5bc61bc03f17468a1953edb7dcd42</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/TransientProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e62fabfe4695e4a439003c1c1fd5d008</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/DisposableManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5ca4a43d84d9d554080d313280363783</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/GuiRenderableManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d6ee197c5aed3b048b76b82a9be3d094</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/GuiRenderer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8e5838132ef34e14ea93d2e3b30b7140</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/InitializableManager.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aef2cb2ede47a96439cbb34a8935111a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/PoolableManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>11e438b2dc7552349949f24c14de14be</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b13656f05675c384181e749264e6bcf9</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistryAdderAndRemover.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4e52124c243adb44aaf26eed3a8413c8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/TaskUpdater.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2fa54cf0e36bd194faa8f877e9f699a4</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/TickableManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e182a0b67fa936e40bebc0dc2f28743a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ActionInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1d2fc6db101e75248ab98ad463a99ffa</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/CheatSheet.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dd79d0a4f0b28314cbd6701ff5ab9062</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/DefaultGameObjectParentInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>031fb76cf466ade4baf3269c39c146bd</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/DisposeBlock.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cad41a65c3c0b0f46a659557b2d716e0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ExecutionOrderInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>952433523e6a6e445adc4ac7e2086e7d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ProfileBlock.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>81cad1ee2d8c20942a68a4228e09ff1d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ProfileTimers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e36c348f078bc444fa1e5b22aca27bad</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ReflectionInfoTypeInfoConverter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5490313f008f146458b6228165838735</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ReflectionTypeInfo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7c74b10dac7e87e4095f8e3157eb040d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ReflectionUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7359cd850f5a96d47ad4606d14dac326</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/TypeAnalyzer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>136cacfad8fe5404aad05dda29a777e4</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/UnityUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>018820e0bcd9a4049a305127c0cf1407</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ValidationUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>717a02054ef2699498e6bd4234fd7995</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>60bbf1e064ae9674185f3f301957c914</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ZenjectException.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>097ddf2608210fe44a9d215a1721d857</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>486c69818dffcd14f96ce64502516bbb</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ZenjectStateMachineBehaviourAutoInjecter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>14ff296505fe79448b0c79ec09977477</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ZenPools.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>046b222c5a2e0994cb5c424ed912f808</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ZenReflectionTypeAnalyzer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>401238e59d733ab48aaea1a582241b29</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Util/ZenUtilInternal.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5d2a7156fffca9b439f7734d94ccf336</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Validation/IValidatable.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>27e4cef6504bc0243b1893240d22b72d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Validation/ValidationMarker.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7893183729d13c84b80bb80d3aac6715</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/MpmSettingsInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>89602ba5a473d064387392d8d2055aa4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a664c0011937115449c81d8ca4a2f6c7</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f96372c95411c904bb55ba67b55e0c84</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/AssemblyPathRegistry.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>374dbffd3e3c6504489ada7d14aa4006</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ReflectionBakingBuildObserver.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>68724c9557073844fb7c3f088c588d32</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ReflectionBakingInternalUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>549215a3ba27806449b2b1542fdffc03</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ReflectionBakingMenuItems.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b107233111f831043b3d5983fe6f1b25</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/UnityAssemblyResolver.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1ab372d6a005c8344b5d6b25dbc310ce</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ZenjectReflectionBakingSettings.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>90683e755a104ed4ab5841ef7bb58742</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ZenjectReflectionBakingSettingsEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1246007cc9cfbc04cb83b9bde4c34995</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/SignalDeclaration.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>26affab6a482d904580cce7f9f1a94f4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/SignalSubscription.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2ebf6df7998e59b4393ef46553665ba2</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/SignalSubscriptionId.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d457d0e45e1d3c54f9bc2bc3aece1760</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Main/SignalBus.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2afd112e630107f458140fbe19d4e31c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Main/SignalBusInstaller.cs</fileName>
+    <timeStamp>2019-04-22T09:01:16+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e8d0040c0a3734b49b26f7cdaa86c5e8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Main/SignalDeclarationAsyncInitializer.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d0eff25a90fc7a4479dbb9a1f74dddc2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5803a20c252d8ae4498e79e8b3bb09e0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a638543bf618ed94fb418f48d9ea9329</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6cf2e5d7a11cf6c418960ff59949b5fa</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f6b4e164706b85c408cd7e8f28266747</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>371e1c0b9a8ff664f993cbe2a547eeae</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/IdBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba3894c2363faea4480796349be1c939</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/IdScopeConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b9f24b7d14dcf8441a1c2b4166a5ec9c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/IfNotBoundBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0711425cf187dd94ea21d8ed6f38d981</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/InstantiateCallbackConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>58c27840cbeb2fa4695b09d536809bb2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/NonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5a71e3efc6d683d4cbc3b881bc4e2772</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4d1fcd1593b05194a82073206057613e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/SubContainerBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4690c1b02bdf3d34998b8a505c85b1b2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6447473513963f742b7ab3c02ec633a8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>647e28e377c50e549b443131ce6163fc</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/BindInfo/BindInfo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>63a8f1068d150404f820c8cc9057dbc8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/BindInfo/BindStatement.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e69b2b4566e331e44a9f92e4e309816a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/BindInfo/FactoryBindInfo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b708f7f76ea5574e9a39b60cc5a8238</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/BindInfo/GameObjectCreationParameters.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3f8798fbf64bca945a7be04615c08c4f</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/BindInfo/MemoryPoolBindInfo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d0c24b30b6678884db62f15947ec943c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/IBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6b41a20eb0faa1041bf6aa0bfcc76064</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/NullBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>10487121a4674d74884ee65e70762e35</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b851ccfb909f66c4587d694f6e37b279</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabResourceBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ee5cb643a9ee24c4fa00e62afc9ef599</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/ProviderBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d2392181aaeca434cb15e2719d7567d6</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/ScopableBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>deaa9a3ee9e42a8448bba948495b9225</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/SingleProviderBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b263fb784fd4b8140b850ff4d68c7aad</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>da4cb0f689a9b074aa3d2f2da8b38015</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>23155ecdf203bf24480fd49763b73677</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b0873c763efd1e94fb3a56ff80843cf1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/Editors/GameObjectContextEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b5ad40b612e67574aad508d053e6965b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/Editors/ProjectContextEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>02bed9738f9c4323ac05524465473dee</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/Editors/RunnableContextEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c04ae1d59f53f514f96e284ba43122f7</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/Editors/SceneContextEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d2b9289e80031104295e10acf518d75a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bc25e694ccedbed4893d980ee61d1c8f</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/EditorWindow/ZenjectEditorWindow.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8620c058a9173b84a97d72ed5e94dbd7</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/DefaultSceneContractConfig.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c9f09e0752f64214ba3413d7fdc47736</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/SceneParentAutomaticLoader.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>13b8377ec575a1a44a1028ee324ba17a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/IMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>305d88c8b2af3f2479cb45ffb6f2923c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba9d727a5d866fb46a576ab76012b727</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPoolBase.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1334aecb808e6c145a993cb441f43bdb</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/MonoMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5475433f41ca61c4a9095affbf60b848</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/MonoPoolableMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7fa0c435e1800a048ac5f7c53e03472d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/PoolableMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>125bde4ab63a4984484c450640ee1702</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/PoolFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>be0cf56827265f44bbdeba09329d66ab</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>08eca9f7688a0a24685b89133b020c8e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a4e6589720da476459dc6dd71624b071</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Contexts/ProjectContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>13e9b26d23f6422cb282cc27631fc9e2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Contexts/RunnableContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>89715ad69b973a14899afa2c6730b30b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ed7323e8fdd8c26438c6485f2060dad0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Contexts/SceneDecoratorContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>668a9feb769954340b35901a0c829397</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Install/Contexts/StaticContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8d5cdba9f2e79364dbf4f3d242fd22da</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectComponentProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>766643a5935eb704a929da28681bf70e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectGetterComponentProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e6a49432e004bd8409d3ddea6a45a3f8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromPrefabComponentProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e6836adf19243a045ba39e67ade6dd59</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/InstantiateOnPrefabComponentProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7a9aaabef2c47874a8b557ade27987eb</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/Decorator/DecoratorProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f8f4db421196f5849b2139200fdea1a3</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/EmptyGameObjectProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d776b7406750d7f4c816cd0c03e4e254</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/PrefabGameObjectProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>45b8fa051fd4fb84b94f6384e6dbe092</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PrefabCreators/IPrefabInstantiator.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7dfc3341d0446554996b2969abf2d1ff</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiator.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>293ee607ccfdf63458a26d0e6bdebaaa</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiatorCached.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3b63b8088376c9a499e7f506a237392d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PrefabProviders/IPrefabProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3628433a045792f4297abd34b5a1a34c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f6f578cfe9da346348878e4a26617ee0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderCustom.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6fa6b8670ec5932489c4102d45d987ff</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderResource.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>83273a08f84aa9a48b37fe0b1bae0958</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/ISubContainerCreator.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2d894c838f0dcc34bb38d1311af9ea56</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorBindInfo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d932bdf1cc240394a94c9fd81dfa9218</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1ea58c024bbd4e846be07059bf23c524</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstance.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>164cf97cfe8f32441beb85b9b3c05868</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstanceGetter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5f4bb37c4e2a5bf44865ed1ab3bef21e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByMethod.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7c2c6880c82d78140818fe3204a0279b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewGameObjectDynamicContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>17fc7cad09fe4e94f939551c85abf6d9</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefab.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>53f151c86cd3c4c46ada71b737004d36</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabDynamicContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>07cb33e44f032a840a46b8b699927d0a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabWithParams.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>64db75da3b9de56409556af4513979c2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorCached.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba4736ebcee13cb4b9feca861072c740</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorDynamicContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c07a01bd5fbd00d43a50854896a92472</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>34ee2459debfb734d968c54ced01b9af</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorIkHandlerManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f4cbf7c6883911843ae4a64582422dda</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a07f8d298d010b34ca694d0d124b66d2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorMoveHandlerManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>510bfbdebf6be804b92145cf677898b9</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorIkHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8e42d79e9a3ccae46b54d9b173778a17</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorMoveHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f054684b4d0f44a1904823270ae3f137</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/Kernels/DecoratableMonoKernel.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1c47912ae4e51a84d92f1acf689997c8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/Kernels/DefaultGameObjectKernel.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8a25347f1a9a6b544b4ef8b643824a6f</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/Kernels/Kernel.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0ed09ac17d1c3ca44b8064ce22ebba27</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/Kernels/MonoKernel.cs</fileName>
+    <timeStamp>2020-05-23T23:43:02+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>374b2cd725ea28a46a6377959bb73c9c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aff38aaefd39d0d41a92c2707718d15c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>576295a2c4f9589448e9441994df8491</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2fb66836df088014081bc2f5740ecea1</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Foo2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>33197ae07a0a36e41bf9fa09aa8d0ce6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Gorp.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>952b7cab572c9c24cb1e7ca240e67c84</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Gorp2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aface7ec58475d840a11bf38361406a2</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0cdb37bf9eda440448d25e272bf9cd32</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>972b6ec83b1c10046b0f01f4692b1ddc</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/Gorp.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>08c786d92d7b8294e9aedb09fe828957</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromGameObjectInstaller/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bcbcf02922433d14eb1175ebd810eb0d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromGameObjectInstaller/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9e40755b32ffa6f4fb5f67e0612fc480</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromNewScriptableObjectResource/Bob.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>70da936d4db31fa4a9f79f7af7604209</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromNewScriptableObjectResource/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>86870631eb8b52e409ad0b86fd44aad7</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aeb709c66d821b242b8e5016c31bb2d2</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Bob.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f39c997bb2d185144bc18d37878d4ab8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cc679fbba1bf0a645957d68235c4771d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Gorp.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>78b17c518e97edb498c1ff8a4d914bd5</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Jim.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>91f7cce5532e4cc4796d58d33d783a80</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Norf.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8fb03bf3db5129643a756826728ce939</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Norf2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>914f813dee2b8b248bce3b21eafa7b6e</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Qux.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bb22de5ed5e7e0b42ba9a44744605d30</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabInstaller/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7ba7fc00ff58d414db79307d68a49cbe</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabInstaller/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>09cb1c767472bd447ab51093e4a17ad3</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>93bfc10f4bb073945911d600dea398a5</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Bob.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c4fe41d55bac23c408a020415051f590</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>93bd1149166ed44478c2e59b34fbfc9b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Gorp.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6dd802b9b69c51443af5311b06b79ca0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Jim.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>434e869aa9c49e046b97da50b0dfa819</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Norf.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cf6600df40401e046af9c2ebfbf58b46</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Norf2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b244b0173d6179840b86ed145aaa6bb2</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Qux.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2161a6f5a67bb7749bb74037a259ca72</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefab/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a9b1995fe11e44134aff82b87c9ad47d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefab/CircBar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>617897a56465c40ee8de5e479395fbc8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefab/CircFoo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6997e435baf0c60488bc2bc179014813</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefab/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0a2394e0baff5a347bdf60d1c2c913d1</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefab/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e7443e55301b94c48944434e69fb7828</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefab/Gorp.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>850feee7ebf0de346ba632c2b2abdc64</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefabResource/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b3d9dd215537204498109ca7ed42833c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefabResource/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a30bc985de2744a49add38b40ccf532a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefabResource/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ddd55da12d9bf754fb0752461ce83ab7</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefabResource/Gorp.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f2a3cbbac172d9d47af76aca9a4d0229</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestInstantiateCallback/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>724cacdf997720a47b671d0a4dc6bb0f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/PrefabFactory/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8aaa72f0222c9a84b9ff566b4609e4a5</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/PrefabFactory/Foo2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f65e28d0debda63429efbca8a5e6ee69</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactory/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d2d5f4f0d25441b4b8dbdcf3e25815a4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactory/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ee5b82f7221fdcb499856642f6436061</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryFive/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>90704beb7bb03b548a09a57bf84fd76a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryFive/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cd7da28b2b2c71a419e9eb3722a9b7b6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryOne/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>01d5660ddd4f5d440a15f6ae003cd42a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryOne/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a4c5304e14d4ebf40a4d40c6c382964d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryOne/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e3fd51e14e913e243bb9c3afbc514fd8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestInstallers/BarInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>19d8f9dc0fef466468a6a0ab8b59a8ac</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestInstallers/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>06dbf735e0bda0047af56033fa90bf9c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestInstallers/QuxInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7388d1be3de18af4fa1b06990de49068</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers/BarInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97cba5011d2370f49b6298a910bff37f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8c1af520fec04194fb32a2f05ccc565c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers/QuxInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8ad54a4699841ca4b83c660b1e5b1205</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestScriptableObjectInstallers/BarInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>86b0c5429fd52904bb98fbccd1e6f2b6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestScriptableObjectInstallers/FooInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2d651675af1c6f14a8e56772e1f69e25</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestScriptableObjectInstallers/QuxInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1f499d32999f20c43916ca767c8a2721</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/StateBehaviour1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b7e5e0f41dcd72141b54052dcea290f3</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Bar.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>48a1702f3f51afd489a487d100ae183b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Gorp.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>85b3fbf1cedc1b347a1f6e63b2948cb8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Qux.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>87c0c38a007bdb941bfe0e49f3be3032</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene1Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>01a62038a5e66fe4d9b531f0be629868</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene2Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6cf76217d15f13a498115eb20027807b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene3Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c4d7a9a15b734ad4682e1817c61c98c6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators/Scene1Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a54443f8b7de6b844924c58d06f23df4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators/Scene2Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4a3c7e61123b793438455e303983adc0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooDisposable1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c5b51a749e060d34289822f72cb51ffe</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooDisposable2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0ad810cfc96e23241a74df77abfac100</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooDisposable3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2e7725934761f694384998e801ae4ebd</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooMonoBehaviourUnderSceneContext1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9392cf77297df0d4db490c3ff2b2b782</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooMonoBehaviourUnderSceneContext2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>136ca26409c551145b089ce06b2860c4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooMonoBehaviourUnderSceneContext3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f36e37fb74779904f9caa9ba765a74f9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/ProjectInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>878b400cccc4fc14c8da70ed4c4b8e85</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/Scene1Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>832615b3a3c558545b218542760a596c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/Scene2Installer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7b3c1933dc350084cb564993979dd692</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/SceneContextEventsTester.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>056c7f636d28cd740aa4f1506db0593d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/IntegrationTestTester/TestIntegrationTest.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d86cf7d476433b44a80c483ab6396e27</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/SceneTests/TestSceneContextEvents.cs</fileName>
+    <timeStamp>2020-05-25T23:49:19+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b78494b8959231d4a9fc937a39f28ce8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Util/FixtureUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>48a8b9cc5fc1b7641ad87f55c4da8788</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/InPlaceStableSort.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1bdf0766db282fd4eaba7e7cd7d17ca5</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/MpmView.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e38c08208cf0cee48a675a3944d37e10</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/MpmWindow.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5608cae0fd6ebbd46b5ad3c03b150682</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Asteroid/Asteroid.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a9a361be236d95c48a1de52c435fcc9a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Asteroid/AsteroidManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ac59283f2813c5643a2495056b74c1c0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Installers/GameInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ed9935f795c01cc498910bae6d24d10a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Installers/GameSettingsInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d1fe837eefbc3fa4ab06a9081d26caf9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Main/GameController.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>24cbab5eaeb84b44481d817f66ea7b27</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Misc/AudioHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>79984cb687438fd469b84d7e916d0574</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Misc/GuiHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>439c34e98ba09b546be28d2b13fda970</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Misc/LevelHelper.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d72ecc6be0485ff4f96c39e24aea61f3</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Misc/TilingBackground.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aab42c7e45a13404daf7de27c7366efc</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/Ship.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>732d3e232d9f7084ca4f03e6129bcbb6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/ShipStateFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>44a6c869bd4f68c479f02155b98fbeca</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Util/GameEvents.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1018c66230d7f7b408485a0d8c28147d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Util/UnityExtensionMethods.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>28bfa2b5275427041ae8782a2fa41625</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyCommonSettings.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>52b884b41e3642c489f58f461470f589</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyDeathHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fac47e4da43b2ca4d955370e0dc6990e</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyFacade.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>401e2ff37163f8f428397277aba9b3a0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyRegistry.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>55eb8b68455f215489114a3a9a6f976d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyRotationHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4087d354966adf44fa24ee0fa597f6da</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyStateManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ff5c7e92da51264499aca355ed207cbd</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyTunables.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ae49206d36b59354b98f680504160bc4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyView.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>432f74bf3abdd7e4facd4bba2a8fe60b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/GameEvents.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba7d60db0911cee42bd0cba6d4ed9b85</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/EnemyInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e432172e250876f4ab278b0d24d58673</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1db4d8ab51ca4ad48844c113bfbd80fa</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameSettingsInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>23aa26bc747410a40ac441fedb64f05d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameSignalsInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ff1b44a433bb75344a686526fba7452b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/PlayerInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a57395b833349ce43a64f59377d0e398</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/AudioPlayer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4bcfdc0e00dba5645b88ed3608c61161</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/Bullet.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3bc2ba00bfd0f6044825d1848b10a7e0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/ControlsDisplay.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1daabbbef5fff9a4b9a2c94659ecdf57</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/EnemySpawner.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>32bea9a1bf6287e4e936f2de85375172</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/Explosion.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2244a42ec7f6e62498da08eaf3d40e0d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/GameRestartHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6307c1ccd85f4f7478da6f3ec5a63996</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/LevelBoundary.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b6cd15ebe0f3c3243af6b6a44d7f2ded</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerDamageHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a99d48a043510d549a4f7078a8653233</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerDirectionHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2db4310dd7706af419ae62fb99fac156</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerFacade.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>301188284719932429bd73b2047b328d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerGui.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ff82b5e08504b89408eddc95e9dad280</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerHealthWatcher.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5b062bb00fc459540964842bdf1068a9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerInputHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9f9f53db91ff64e40af5b30b70927e13</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerInputState.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>08563d6b38c31254692837726a00f677</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerModel.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d1291ab8856aa9e44a39831fce2c2f0c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerMoveHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5a7938ea9f043d24fa235c0e0d2c0f39</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerShootHandler.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>604fe2d23cc79c7498be851b6970af1b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/SignalCopyBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ca6f0ad40fd1abc4a8fb5e8a50134aa4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/SignalExtensions.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fb1dbf2ad8637f340a532132f4555abd</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/SignalTickPriorityCopyBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>645589d2772852246ac2ea1fd8ee4f92</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestBindingInheritanceMethod.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>51d298299a99e3247aa3cc0b5caa1c88</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestConcreteIdentifier.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0fa385d656ffb584d8326240eb19c9f3</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestIfNotBound.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>685a532a989c2f846b3fb97ea6c63b01</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMoveIntoAllSubContainers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7a57b8b648dfde647b2cc4de6e9ea944</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMoveIntoDirectSubContainers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fb35253dbaabad84a815c3a9106cab8b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMultipleContractTypes.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b0c99e3d7ab1f7040b86e83fda23093b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMultipleContractTypes2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a3c5d33d617b5d74386818cd004d2f3d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMultipleContractTypes3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bd8592ec897336d4fb55f476488dfb1c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestNonLazy.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>389794c3c2d66a24f9146f9071f398aa</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestRebind.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7bc1066beaa29be488a974f611aadf7f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestUnbind.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a9729dccd0a5529458a8ef18263587ae</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestWithArguments.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6a67145dedecd9947bb94c542f6474ae</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFrom.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d88c26093930ebe4c9c294ae22d12754</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1d62dc62d45050143ae156ca7f735abf</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromGetter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4dcea3c765b0e9149915042c669c1046</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromIFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5f3553d18dec30b4eba317e9036f97dd</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromIFactory2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7bf907a08d456614db4e71411381f66a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromInstance.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2f937d712d2be4042b394985b5b8f441</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromMethod.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fadc8263bac9f4941b06a03c82251f36</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromMethodMultiple.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c9c6a37cf443b134e91d0b7eb1c1532e</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromMethodMultipleUntyped.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0b37e8adbb14af84ba212744b2bd2804</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromResolve.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d941aa49ba79854487ffabb59b0a24f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromSubContainerInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1435f07f5e446424ab1523f4aed91c0c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromSubContainerInstance.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>933792039e2b04441933af16ce414f05</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromSubContainerInstanceGetter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0aca0ea3c3e68134886983eb884c26c0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromSubContainerMethod.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>304074b8e887c2945b28ba359d69b282</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestNonGeneric.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a2f3ac87f43046e4896f1a00fa6a847e</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestWithKernel.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6cb63718e40b7bd429fc93d4542aaf01</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsBasic.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f34becbac266acf42a68abcd73423b00</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsComplex.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6eacf4d3f8215d54dadba7ba02a91fbf</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsFieldName.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a3c3d9696613b32448c9d67ce36945e8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsIdentifier.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>12290b4e2fc99dd4197a95555c4b7742</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsParents.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa53be31526be634795d3b724199e7ea</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsTarget.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0f79fbd0fa046ae429a33becfec16c75</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsTargetInstance.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>644729bec6228dd46a175eab4d04637a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestIdentifiers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9bc24db5ed5a5d047af12bf9c81319bb</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestIdentifierTypes.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>df03d112f1cade745b9c6eb4344fc519</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/Foo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d233b33d1863c004293dc5c5dbec63c9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/FooMore.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>69363ffe277b0e84ea97667444992554</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/TestConvention.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>37e019ec982c85046baf80bc37b38d11</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/TestConvention2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a8a9ff36735244a47babe85319e21e38</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/TestConventionNames.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>24764a4ebdf5bb044ad3cef3184d85b6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/TestFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9fe16f0cbfec7754e85378cb23b97b89</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestAllInjectionTypes.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>444583e94b8faf74c823354f8352eb23</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestBaseClassPropertyInjection.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d00c81151702f6b4fa1d0400acf83a51</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestCircularDependencies.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6c6aad7bc2fa9c0428a8cc8b7670445d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestConstructorInjection.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ccdd61e6305aade43b64f0c488a7f126</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestConstructorInjectionOptional.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>68ac954686ff2e04699f2ceefd89a402</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestDuplicateInjection.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a991a1d50d39d334b846e0ad5cd511e7</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestInjectSources.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d5b86b3c904d43145a9afbd7f8a0cb13</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestListInjection.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9adcc99fb99e8954c84b0f32060eeead</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestNullableValues.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c571947a83e2460438d98aff825f6de2</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestParameters.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b471b20538748df4a8932877aa7bd2f9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestPostInjectCall.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b2d41ccbf61026c45872ce060cd81b70</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestPostInjectParameters.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e73445afb1e143e4d83dccc220517a72</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestPropertyInjection.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>99836272f6c39824ebe35524b96e67cd</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestStructInjection.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>731e8a7c5222176449a38890b363d0b5</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestTestOptional.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>33e25c55b70120c42a55e90dee543e4a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestArrayPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fd6b9542508dba54ba29e1316963417a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestDisposeBlock.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0290781678baa694491808cbbb4365b0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestFromPoolableMemoryPoolOne.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>098b4e9c9d112bc42866f5cff81842c0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestFromPoolableMemoryPoolSix.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>327a53cf63cd4c04dbf831a038257783</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestFromPoolableMemoryPoolValidation.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ac0356e6e75c5604fbc522ae6ee4c252</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestFromPoolableMemoryPoolZero.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>325335e855a4c594480804dc3d0e8caa</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestMemoryPool0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8379f1a96bdcecb4e9cd40975f9c898d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestMemoryPoolCustomFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f7ee5ff810de60d4ba6ac2e06aeb70ea</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestPoolableStaticMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>554fc06f7ed876d479aa605f55099e02</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestStaticMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6935919ae38269447a54f963952ce929</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestAllocs.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6b3c12a3bc805fb47b7dd01a4c8f100f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestAsSingle.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1a3977987fbe0944c8f7d3879818e79c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestBindCallbacks.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>42f3a9d60487be74a953056c109c0f8f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestCircularDependencies.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>60fe740f61f8eb340988d68157f7ec18</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestClearCacheProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>483591f22e80cb944b470afb280c1260</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestCustomInjectAttribute.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>919290ef5f80b8c48832d7a91f8ab674</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestDecorators.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4ea46e52a0fbff6478bff334331e6aaf</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestDecoratorValidation.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>84329a2f5907361459ac88fb29b3c102</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestFacadeSubContainer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3cca63c83328cfd4693f06f559c762ec</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestFactoryMemoryPoolCustomInterface.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>af3b7f56a09aaa04c8eedd4f6c11945c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestGenericContract.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c2095fa27bc74d346a34ccfe39d21464</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestKeyedFactoryExample.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cd58ae826c869c849a16a72b99a4c984</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestLazy.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9feaeae29aa84c64fb1741b2195e54ba</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestNestedContainer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>25dab1c5f3ebf424da72c0f042790b11</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestPoolableManager.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ab22cbcf8e3080d41bd2031eb04612ee</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestResolve.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8adbb260feb50b248943eb2fb41681cc</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestResolveMany.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bc27ceb0add4e284880a47f778bd5433</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestSubContainers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9b761fe9578b04148a779d2c323548fb</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestSubContainers4.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>191c7c5b01ead0f4283fa0656f3310c8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestTaskUpdater.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>248d9a33864afc54ab7c4d1a664fe81e</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestTestUtil.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>669690277b55b8c419f4d34dbef0cbde</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestTransientMockProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6faaf38387f08ff4ab2b1aeaa3aa6447</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestValidation.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9b700b061b5fac341a8668b2329c3c5e</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestValidationSettings.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>33e5ecde955b52a42bf3454813d30435</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/ZenjectProfileTest.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>12c4cac1f74962c48916d2476d6828d0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Profiling/TestInstantiateApproaches.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ae6347214d2fec34faa73c79172f642d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestAsyncSignals.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>907fe89581f70f64e88ceda5022ffdd6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestBindSignal.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>858c963bb28d506418f719d41e989e33</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestSignalIdentifiers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d126648ba38c37f4bbd46176fd19e72a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestSignalRuntimeDeclaration.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5d50d2db331ed4b46b395d73e2032024</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestSignals1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a29fed4f37865b6499168681c2fc1460</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestSignalsAdvanced.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bf5f121e858986e43bb2591c885b5507</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Util/TestListComparer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>62ec581e8d820a74797d1dabf19d85c3</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderGeneric.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b04935d23b1499e42a242d63a3fe248b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderNonGeneric.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>358cdf402ef00ff40ac81f3bbe7018f0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderGeneric.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1251d518904c9574897614d756f76756</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderNonGeneric.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5229c122d45b5634ebd4b9bccee749ac</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionAssemblySelectionBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f1e908965ce63ab40b271724cb5490aa</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionBindInfo.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fc3e9c89606ca52458403153ad0d9b3e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionFilterTypesBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>05d17b3e7f09bc44f8be86e01642ee8d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionSelectTypesBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1cdc9466c4b6c7f4f81675e8f546672f</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinderBase.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2a3880a3063c56747b32995b66a8a1ca</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/PlaceholderFactoryBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1bfe8c7cab3320b4a818fbb97098fb11</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97eaa55248b4c824a887df4db7cf888d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderGeneric.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e54c591a4175efc4688be675528600c1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderNonGeneric.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>74c9bb72aa7484d49a39760d2246f1a3</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d6441d2557329b14b8a80a6d3c490e9b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3bf78918a4d09d44695230ef305b6e1a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Static/PoolableStaticMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>56b2eb81b3385fd47a0500abeac7b60e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Static/StaticMemoryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>891d6e713fcfdfc4a95271fdee018e94</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ArrayPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>031a0490d1684424e9e33b22106cb178</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Util/DictionaryPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>89c66035001289a4199cb04e17d0bc28</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Util/HashSetPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f30364d1ac067164ea56051cd000b49f</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ListPool.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>69aee89274cd16b48aa790ddd5a061d2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Util/PoolCleanupChecker.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cccc66ed95242b544bd7f501f0ecb89b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Factories/Pooling/Util/StaticMemoryPoolRegistry.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3b0521d85aeb9ee479dcb29ef4d88547</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToCurrentGameObjectComponentProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>669e8af5b17774d45acea73d348e6dca</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToExistingGameObjectComponentProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d818f8110e5b31d4eb27001e5c5b3eb9</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToGameObjectComponentProviderBase.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6e1085d337c03dd42a1d5493c11d9d23</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToNewGameObjectComponentProvider.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>03827fc575424954ba63c60d88fdd289</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestDiContainerMethods/TestDiContainerMethods.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>69fc44fa2e9354d409863d794494198f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponent/TestFromComponentOn.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4d448c0958b131e4487e3e814771e282</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponent/TestFromNewComponentOn.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>60e4db58b41116646b1675963b1c75a1</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInChildren/TestFromComponentInChildren.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>33f32e2013960314f841932f66d9b92c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInHierarchy/TestFromComponentInHierarchy.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e4a3a41ae23a4bb44b068790d065e7e4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInHierarchyGameObjectContext/TestFromComponentInHierarchyGameObjectContext.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9df118a8d9c898344bed28c6913a6d7e</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInParents/TestFromComponentInParents.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b0d37dd020d97b3459f64a7f3434ff96</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInSiblings/TestFromComponentInSiblings.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e879b4e0ab309f247a1efc11a7a71bba</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromGameObject/TestFromGameObject.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c0dfdf55fcc548d47b0b804800f9c7e5</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromGameObjectInstaller/TestFromGameObjectInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>524c1ea1726f5b24e99d297bf3bab1b3</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromNewScriptableObjectResource/TestFromNewScriptableObjectResource.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9a11ff4a9421f2949993c4dc34f50335</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromPrefab/TestFromPrefab.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6591427867291174ba958928b193a190</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromPrefabInstaller/TestFromPrefabInstaller.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>100b8c53531c9e049bd6ac742c979248</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromPrefabResource/TestFromPrefabResource.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dea2fb7319188134c9049c249f465009</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromResource/TestFromResource.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eb7b9080f4910bd4bae9f726194b1c50</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSiblingComponent/TestFromSiblingComponent.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bdaee535959c3024c889b3b486fa661a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSubContainerPrefab/TestFromSubContainerPrefab.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>334541748134b72468ffe34ea80cf8f0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSubContainerPrefabResource/TestFromSubContainerPrefabResource.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fe1c39f4b0d91954a937f1277fad2453</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestInstantiateCallback/TestInstantiateCallback.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1ce0b6eda7a924b40a99633734931bb9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestLazy/TestLazy.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d68637dd8a89bba40b7d4506d09c1bad</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Factories/PrefabFactory/TestPrefabFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>27adf673c597fc3409c6f978c63ab887</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Factories/TestBindFactory/TestBindFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>572457f9104bd1e4b9b08350f69f5041</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Factories/TestBindFactoryFive/TestBindFactoryFive.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>07b8699c6cfb35041acbf91f227fe7d4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Factories/TestBindFactoryOne/TestBindFactoryOne.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f50a5f22f2c3e034d9e90b4244a3e412</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Factories/TestMemoryPools/TestMemoryPool1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>32558f6368b08f645928a4a03327df55</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Installers/TestInstallers/TestInstallers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>93f2c1be16a3dce4a8a498951113458f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Installers/TestMonoInstallers/TestMonoInstallers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1e5c2b8474b1ca34ba877a52ba18d05f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Installers/TestScriptableObjectInstallers/TestScriptableObjectInstallers.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f80ffddc2b920e54f85483d37863d1ba</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Misc/TestAnimationStateBehaviourInject/TestAnimationStateBehaviourInject.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>983f0bc44f6541bfab062ceec72231d3</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Misc/TestMonoKernelDecoration/DelayedInitializeKernel.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>71d4a84946422ad49ae352537c257aed</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Misc/TestMonoKernelDecoration/KernelDecoratorInstaller.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>166ad9cc65d872b48badf6da39e4a31c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Misc/TestMonoKernelDecoration/TestMonoKernelDecoration.cs</fileName>
+    <timeStamp>2020-05-23T23:13:39+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5a70553092a2adf41a33f6f3fc9019b8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Misc/TestZenAutoInjecter/TestZenAutoInjecter.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b9b5eb959c3c75149a4153c9c7d7a7d4</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/BrokenShipFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa6c7bf121e4f8343b05c7d09eb12ec6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ExplosionFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a68789b75fb09ef43b854fd3c59241b0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ShipState.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>379e1c748b9152a449b52cd01e25a642</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ShipStateDead.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6519cef92721b644c9e0b46f2f92430a</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ShipStateMoving.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ce3520353cbeb084691b14a57a7bec93</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ShipStateWaitingToStart.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3d2bd141d86c3fb40a0a616c19e6de0c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/States/EnemyStateAttack.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f6b8435c02df92747b53470f32656b93</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/States/EnemyStateFollow.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7a99ffa8c241c8a4e97392c7903712f0</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/States/EnemyStateIdle.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c779f758eaadfd54fb9c66f7acc75716</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalFromBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ecce6d44c178e564c8937125741f3c8c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalIdToBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6df1bca64a984074fb4af41dc1d42a07</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalToBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b11a635fa1263c4f9a9a0d70d7efcf2</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/SignalCallbackWithLookupWrapper.cs</fileName>
+    <timeStamp>2019-04-22T09:01:16+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9a8599dbdf9033e468671e40de134ccf</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/SignalCallbackWrapper.cs</fileName>
+    <timeStamp>2019-04-22T09:01:16+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b81f91889a4f58f45a186d306ec19a76</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalAsyncTickPriorityCopyBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>183994f131b561a43a9967cceb7c949d</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7cc67ec88be096e4a89e01987d671cb9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>054ec2c1e404fd04f99dcab4d9012db2</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/SignalBindingBindInfo.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1e83db91ff836874fb4fcf3ae4e16f0b</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/SignalDeclarationBindInfo.cs</fileName>
+    <timeStamp>2019-04-22T08:41:52+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cd589059f4c2ff341a25698a4a1673d9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2aeb922683e72ac4f9fd3806715e65df</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>db247dfbb1d6d284cae35a8f3ae55f17</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom5.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1ccf6a6010280bd4c80cd60ddfc3251c</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromFactory0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba619dabc8cdb2a4b853e8d7d88b9a23</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromFactory1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>02801e9ad7fdcd54990732b0e9ec2d0f</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromGetter0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a07aa9c58bcc5094f8e29f0d10303fb8</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromInstance0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8cac25659efcbbb47ab2876811408f52</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromMethod0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>75b2bb6fc90254044b1eae12b63cafb3</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromMethod1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bde11a0eb028e1a4d9f8cd47b9752dad</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromResolve0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a75a7d0a0d0a978459537926595a8f75</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerInstaller0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0f5f5adb036584147968b4cf0e1b75a6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerInstaller1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>99958e9b2f0eefc429b100aafef684ae</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerMethod0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>326764b6ac92ebd4daa3532846e523c9</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerMethod1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>267196012b398f842894c8ad3a75aea6</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryWithArguments.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1663d737024bdf5438c672cef0d2d577</guid>
+    <fileName>Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/IFactory/TestIFactory.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ca3197650e9628a45b99e79b8dea27d9</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a37e124df695f644e87579f08ea443f7</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>614bb4e31afa5154487c94e128e9461a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder10.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3b450191ad6422c4f841a99cdf3d108a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>667d9c959f8ba004f86c8202d637f9ce</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ce44f168dd48e1442b43a43c925abc47</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder4.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f3c4d5776729d2d4abae523dd6dce595</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder5.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>22836272211e07a459544765e2e7c098</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder6.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fd0f7feaafd2cc44da895162de285da7</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>57ab0b3d05763f14fb530d07a5acd481</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d835e30b6131d754e892d6f397e9921a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder10.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a36f88760754c1c498ab3270dfb88b72</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4eb3a4d5d01c55748b43f48a1da3c7b6</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e67ee9caa78de914a9c727a607c3d8c0</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder4.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>901200be3b8d1cc40876aa50a03103b8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder5.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b79f4e548e208b1418f013d2fdb0e076</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder6.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e70f91cb77703ce42ae6ad721b89d35c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/DecoratorToChoiceFromBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>98bc5c26f28a00544afe116adee67cc2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>388c17c735861d145903203b31cb190d</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4cdcd151f6d139642b7a2a6968c6ebd8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder10.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>59c18bddf62adaf46b1de0564bf02388</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a71cc77bd306cca459126294c63080b1</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fee2c810a2ee8d2489a6a29177b48d82</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder4.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dc472af8f2bc5bf498b8e85704193aac</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder5.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4c738f3e9159a7e4f8450de246530f96</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder6.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dca817e151a0eac4480344dcf838b949</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a005e8d2a91ae2647927c047c663d046</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3e0b2700788fac54698446fcfad2b705</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder10.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c109e2a5fd72a004e83beae958fa888a</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>be02341a689ce654ab7160ce4eb5ed0e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e65744c901e080744aada3988bfdf11c</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder4.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>20b01a4cfa147764a9e52134e2a32bb4</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder5.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b60ae0cff4748ec43b6cb040b0f3a728</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder6.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>41eb30ac64078db4090dd136ccaf1fbe</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolBindingFinalizer.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>95b7c7be81364a740b952460f5a07bbf</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolExpandBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>80ff9e6d501d30d4a82639f4ae453712</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolInitialSizeBinder.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3c12d5eb6ac4cc8449986d020ef27e4f</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder0.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b119fe818c4bae143ab8f9a4f2a1b0fd</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder1.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3b6136acd174dfc4d9b9d3f2b9e110e4</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder10.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5f32bdc495dbe204caab18bace045515</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder2.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fdb97e2862ca0a24e8f87c081ea05727</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder3.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b0f061434819b334289a066ab685ab37</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder4.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e562a021e16d4a2418f6c47de105c64e</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder5.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6bc525cf91bd29644ab941902ab4a8d2</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder6.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>387c12fd770c48e49bcefe4c0723d511</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderBase.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a002e9dce4e8af54d948529d6beda84b</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderWithParams.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ed1989ebc010d0746ab301cc5747f5c8</guid>
+    <fileName>Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/Untyped/FactoryFromBinderUntyped.cs</fileName>
+    <timeStamp>2020-01-24T22:05:49+02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e460eaf0ce57c3b4180dad8d6b192672</guid>
+    <fileName>Assets/Scripts/Character.cs</fileName>
+    <timeStamp>2023-06-11T17:10:32.9279187+03:00</timeStamp>
+    <typeFullName>
+      <string>Character</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eaf5ee202b9e47f4fbb8c44699747c54</guid>
+    <fileName>Assets/Scripts/Item.cs</fileName>
+    <timeStamp>2023-06-11T16:22:01.2730054+03:00</timeStamp>
+    <typeFullName>
+      <string>Item</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c40befb604e134a4e917ae1b53081082</guid>
+    <fileName>Assets/Scripts/ItemData.cs</fileName>
+    <timeStamp>2023-06-10T11:51:57.1251144+03:00</timeStamp>
+    <typeFullName>
+      <string>ItemData</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7059b340d9e41f5459bcd428d4ed8708</guid>
+    <fileName>Assets/Scripts/SelectedCharacter.cs</fileName>
+    <timeStamp>2023-06-30T17:23:36.2535231+03:00</timeStamp>
+    <typeFullName>
+      <string>SelectedCharacter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>297c201c074e65149ae965e2c238181c</guid>
+    <fileName>Assets/Scripts/Shop.cs</fileName>
+    <timeStamp>2023-06-11T16:22:53.5672601+03:00</timeStamp>
+    <typeFullName>
+      <string>Shop</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d236260ee0d659a4383b8680de7ec2ad</guid>
+    <fileName>Assets/Scripts/AirplaneController/AirPlaneController.cs</fileName>
+    <timeStamp>2023-06-30T18:18:28.1248264+03:00</timeStamp>
+    <typeFullName>
+      <string>HeheGames.Simple_Airplane_Controller.AirPlaneController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>25fa274b27c11a44f999dcf9817e926b</guid>
+    <fileName>Assets/Scripts/AirplaneController/DetectedCollider.cs</fileName>
+    <timeStamp>2023-06-08T22:36:05.1278686+03:00</timeStamp>
+    <typeFullName>
+      <string>DetectedCollider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a50d2c082e5a5af4291b7a817ee4c6fb</guid>
+    <fileName>Assets/Scripts/AirplaneController/IMovable.cs</fileName>
+    <timeStamp>2023-06-08T12:14:41.5645681+03:00</timeStamp>
+    <typeFullName>
+      <string>IMovable</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74a80d1ed590dd34dbc0eec0cdcaf4c1</guid>
+    <fileName>Assets/Scripts/AudioSystem/AudioSystem.cs</fileName>
+    <timeStamp>2023-06-21T16:39:35.3790181+03:00</timeStamp>
+    <typeFullName>
+      <string>AudioSystem.AudioSystem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>147a1afa456da84438960d0d8550cdcc</guid>
+    <fileName>Assets/Scripts/AudioSystem/IAudioSystem.cs</fileName>
+    <timeStamp>2023-06-21T16:39:35.3680192+03:00</timeStamp>
+    <typeFullName>
+      <string>IAudioSystem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea6bf9033feb8da4b809d7e517cd3e62</guid>
+    <fileName>Assets/Scripts/Camera/SimpleAirplaneCamera.cs</fileName>
+    <timeStamp>2023-05-10T12:48:07+03:00</timeStamp>
+    <typeFullName>
+      <string>HeneGames.Airplane.SimpleAirplaneCamera</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>662f11f23e8c6c749a9827a1fb44e34d</guid>
+    <fileName>Assets/Scripts/CheckPoints/Checkpoint.cs</fileName>
+    <timeStamp>2023-06-16T17:26:32.0406725+03:00</timeStamp>
+    <typeFullName>
+      <string>Checkpoint</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6db521a796a2a7b4f854c3de43a8a0ba</guid>
+    <fileName>Assets/Scripts/CheckPoints/CheckpointController.cs</fileName>
+    <timeStamp>2023-06-16T17:26:32.0416719+03:00</timeStamp>
+    <typeFullName>
+      <string>CheckpointController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bdb2f04ca14c712469e32cf1cf8a82c9</guid>
+    <fileName>Assets/Scripts/CheckPoints/LookAtTargetController.cs</fileName>
+    <timeStamp>2023-06-16T17:26:32.0547293+03:00</timeStamp>
+    <typeFullName>
+      <string>LookAtTargetController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4b8ab2083151dc7468677210eb43d7f1</guid>
+    <fileName>Assets/Scripts/Inputs/InputProvider.cs</fileName>
+    <timeStamp>2023-06-30T17:55:34.8023329+03:00</timeStamp>
+    <typeFullName>
+      <string>Inputs.InputProvider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b55983ae79f6a2b4f82699e1dbf23d97</guid>
+    <fileName>Assets/Scripts/Installer/GameInstaller.cs</fileName>
+    <timeStamp>2023-06-11T19:05:38.8052799+03:00</timeStamp>
+    <typeFullName>
+      <string>Installer.GameInstaller</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>573bdce0f59a4a30929d9b6bfb322ef3</guid>
+    <fileName>Assets/Scripts/StateMachine/AirStateMachine.cs</fileName>
+    <timeStamp>2023-06-23T19:10:56.0139891+03:00</timeStamp>
+    <typeFullName>
+      <string>StateMachines.AirStateMachine</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>62080fe333074863ba24b4a00ab113f2</guid>
+    <fileName>Assets/Scripts/StateMachine/FlyState.cs</fileName>
+    <timeStamp>2023-06-30T17:54:17.4391447+03:00</timeStamp>
+    <typeFullName>
+      <string>StateMachine.FlyState</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7917946d29b54309b855657b2dc47d51</guid>
+    <fileName>Assets/Scripts/StateMachine/IState.cs</fileName>
+    <timeStamp>2023-06-21T16:32:06.2603902+03:00</timeStamp>
+    <typeFullName>
+      <string>StateMachine.IState</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>877e69568c09434987db1b65709c92c5</guid>
+    <fileName>Assets/Scripts/StateMachine/LandState.cs</fileName>
+    <timeStamp>2023-06-30T17:54:17.4122974+03:00</timeStamp>
+    <typeFullName>
+      <string>StateMachine.LandState</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d1ee752d7dcf3274287c44e6d511b889</guid>
+    <fileName>Assets/Scripts/StateMachine/State.cs</fileName>
+    <timeStamp>2023-06-21T16:31:53.2497303+03:00</timeStamp>
+    <typeFullName>
+      <string>StateMachine.State</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5e52c0a66f294b7dbb340b1dbc792837</guid>
+    <fileName>Assets/Scripts/StateMachine/TakeoffState.cs</fileName>
+    <timeStamp>2023-06-30T17:54:17.4272282+03:00</timeStamp>
+    <typeFullName>
+      <string>StateMachine.TakeoffState</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c37634d79606ebb4fbe37b1ea65e09e8</guid>
+    <fileName>Assets/Scripts/States/AirplaneStateB.cs</fileName>
+    <timeStamp>2023-06-21T16:40:21.112138+03:00</timeStamp>
+    <typeFullName>
+      <string>HeneGames.Airplane.AirplaneStateB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7c955493747686b458c068ee77f08998</guid>
+    <fileName>Assets/Scripts/Stats/IStats.cs</fileName>
+    <timeStamp>2023-06-09T11:14:30.53443+03:00</timeStamp>
+    <typeFullName>
+      <string>IStats</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b8fa91e102923bc49b538c991a93c017</guid>
+    <fileName>Assets/Scripts/Stats/Stats.cs</fileName>
+    <timeStamp>2023-06-23T21:32:15.0922457+03:00</timeStamp>
+    <typeFullName>
+      <string>Stats</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ed868280a86bc6a40bc7e25b795adf02</guid>
+    <fileName>Assets/Scripts/UI/UIController.cs</fileName>
+    <timeStamp>2023-06-23T22:40:03.5027441+03:00</timeStamp>
+    <typeFullName>
+      <string>UIController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a95e0a044abfc473394c6c61eb343e4a</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/ActiveStateToggler.cs</fileName>
+    <timeStamp>2021-03-22T19:52:27+02:00</timeStamp>
+    <typeFullName>
+      <string>ActiveStateToggler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7696221f0cbbc764498b26fbbf4228af</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/ApplicationManager.cs</fileName>
+    <timeStamp>2021-03-22T19:52:20+02:00</timeStamp>
+    <typeFullName>
+      <string>ApplicationManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>71f437cfa250a7d4a9cb2760386ed379</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/ChangeColor.cs</fileName>
+    <timeStamp>2021-03-22T19:52:19+02:00</timeStamp>
+    <typeFullName>
+      <string>ChangeColor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>16adfeb90f2004348b7dfad7eb9ae316</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/DragMe.cs</fileName>
+    <timeStamp>2021-03-22T19:52:09+02:00</timeStamp>
+    <typeFullName>
+      <string>DragMe</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b895a589a253443a9ac85bafa7402a65</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/DragPanel.cs</fileName>
+    <timeStamp>2021-03-22T19:52:29+02:00</timeStamp>
+    <typeFullName>
+      <string>DragPanel</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>266dee177694435468095e35de5218cc</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/DropMe.cs</fileName>
+    <timeStamp>2021-03-22T19:52:11+02:00</timeStamp>
+    <typeFullName>
+      <string>DropMe</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b8960321e10f80b4c844cd91bf1ea437</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/PanelManager.cs</fileName>
+    <timeStamp>2021-03-22T19:52:29+02:00</timeStamp>
+    <typeFullName>
+      <string>PanelManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bdf784713333a4b24860228711510eac</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/ResizePanel.cs</fileName>
+    <timeStamp>2021-03-22T19:52:30+02:00</timeStamp>
+    <typeFullName>
+      <string>ResizePanel</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1f55b68dc282796488e1181ab0602967</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/ScrollDetailTexture.cs</fileName>
+    <timeStamp>2021-03-22T19:52:10+02:00</timeStamp>
+    <typeFullName>
+      <string>ScrollDetailTexture</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>acd5fac7403fe184b870fd9b8d0fa262</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/ShowSliderValue.cs</fileName>
+    <timeStamp>2021-03-22T19:52:28+02:00</timeStamp>
+    <typeFullName>
+      <string>ShowSliderValue</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c5b01eb497714c1449cb2df46eb5ac6f</guid>
+    <fileName>Assets/Unity UI Samples/Scripts/TiltWindow.cs</fileName>
+    <timeStamp>2021-03-22T19:52:31+02:00</timeStamp>
+    <typeFullName>
+      <string>TiltWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fc3e9bd2af4844e4cb734482f04baa02</guid>
+    <fileName>Assets/Old Hangar/Demo/Script/ThirdPersonCamera.cs</fileName>
+    <timeStamp>2018-05-21T02:00:20+03:00</timeStamp>
+    <typeFullName>
+      <string>ThirdPersonCamera</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a3e5f51e31f79c4fb340e92ffc286e8</guid>
+    <fileName>Assets/WorldSkies/Demo/Scripts/LookCamera.cs</fileName>
+    <timeStamp>2017-04-13T01:11:39+03:00</timeStamp>
+    <typeFullName>
+      <string>LookCamera</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dca6002b33ac5bc48b39588e222296fb</guid>
+    <fileName>Assets/WorldSkies/Demo/Scripts/SkyboxChanger.cs</fileName>
+    <timeStamp>2017-04-13T01:11:41+03:00</timeStamp>
+    <typeFullName>
+      <string>SkyboxChanger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>30a04da0bc23b7448b9719ce2d8c36ca</guid>
+    <fileName>Assets/ImportAssets/HeneGames/Simple Airplane Controller/Scripts/LandingArea.cs</fileName>
+    <timeStamp>2023-06-30T17:51:22.4620282+03:00</timeStamp>
+    <typeFullName>
+      <string>LandingArea</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0bfdd5b211652cb418aa1d01956efde1</guid>
+    <fileName>Assets/ImportAssets/HeneGames/Simple Airplane Controller/Scripts/Runway.cs</fileName>
+    <timeStamp>2023-06-30T17:49:25.7598028+03:00</timeStamp>
+    <typeFullName>
+      <string>Runway</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e157df09fb2dab44a83d748c03ad1e28</guid>
+    <fileName>Assets/ImportAssets/HeneGames/Simple Airplane Controller/Scripts/RunwayUIManager.cs</fileName>
+    <timeStamp>2023-05-10T12:48:06+03:00</timeStamp>
+    <typeFullName>
+      <string>HeneGames.Airplane.RunwayUIManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ff51ae6c73555db4d9acc272efe08470</guid>
+    <fileName>Assets/ImportAssets/HeneGames/Simple Airplane Controller/Scripts/SimpleAirPlaneCollider.cs</fileName>
+    <timeStamp>2023-06-30T18:03:12.1970093+03:00</timeStamp>
+    <typeFullName>
+      <string>SimpleAirPlaneCollider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b19f88ea1d1b99b47947cc337c0d5970</guid>
+    <fileName>Assets/ImportAssets/HeneGames/Simple Airplane Controller/Scripts/SimpleAirPlaneController.cs</fileName>
+    <timeStamp>2023-06-30T17:54:13.7655296+03:00</timeStamp>
+    <typeFullName>
+      <string>SimpleAirPlaneController</string>
+      <string>SimpleAirPlaneController+AirplaneState</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+</ArrayOfTypeDate>

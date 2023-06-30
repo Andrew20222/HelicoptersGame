@@ -5,22 +5,21 @@ public class Stats : MonoBehaviour, IStats
 {
     private const int ZERO = 0;
     private const int MAX_SCORE_LEVEL = 10;
-    [SerializeField]
-    private float score;
+    [SerializeField] private float score;
 
     public float Score => score;
-    [SerializeField] 
-    private float level;
+    [SerializeField] private float level;
 
     public float Level => level;
 
     public Action<float> UpdateScore;
     public Action<float> UpdateLevel;
+
     public void ScoreUpdate(float checkPointScore)
     {
         score += checkPointScore;
         UpdateScore?.Invoke(score);
-        
+
         CheckScore();
     }
 
@@ -29,7 +28,6 @@ public class Stats : MonoBehaviour, IStats
         if (score > MAX_SCORE_LEVEL)
         {
             LevelUpdate();
-            UpdateLevel?.Invoke(level);
         }
     }
 

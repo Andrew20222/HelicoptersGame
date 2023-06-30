@@ -1,15 +1,14 @@
 using HeheGames.Simple_Airplane_Controller;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField] private Stats _stats;
-
-    [SerializeField] private TMP_Text scoreText;
-
+    [SerializeField] private Stats stats;
+    [SerializeField] private Image imageScore;
     [SerializeField] private TMP_Text levelText;
-
     [SerializeField] private AirPlaneController planeController;
 
     [SerializeField] private TMP_Text speedText;
@@ -20,16 +19,17 @@ public class UIController : MonoBehaviour
     
     private void OnEnable()
     {
-        if (_stats != null)
+        if (stats != null)
         {
-            _stats.UpdateScore += ShowScore;
-            _stats.UpdateLevel += ShowLevel;
+            stats.UpdateScore += ShowScore;
+            stats.UpdateLevel += ShowLevel;
         }
     }
 
     private void Update()
     {
         ShowSpeed();
+        ShowScore(stats.Score);
     }
 
     public void Play()
@@ -47,16 +47,16 @@ public class UIController : MonoBehaviour
 
     private void OnDisable()
     {
-        if (_stats != null)
+        if (stats != null)
         {
-            _stats.UpdateScore -= ShowScore;
-            _stats.UpdateLevel -= ShowLevel;
+            stats.UpdateScore -= ShowScore;
+            stats.UpdateLevel -= ShowLevel;
         }
     }
 
     private void ShowScore(float score)
     {
-        scoreText.text = $"Score: {score}";
+        imageScore.fillAmount = score;
     }
 
     private void ShowLevel(float level)
@@ -66,7 +66,7 @@ public class UIController : MonoBehaviour
 
     private void ShowSpeed()
     {
-        speedText.text = $"Speed: {planeController.CurrentSpeed()}";
+        speedText.text = planeController.CurrentSpeed().ToString();
     }
 
 }
