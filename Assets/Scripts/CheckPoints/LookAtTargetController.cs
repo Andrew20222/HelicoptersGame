@@ -1,24 +1,27 @@
 ﻿using UnityEngine;
 
-public class LookAtTargetController : MonoBehaviour
+namespace CheckPoints.LookAtTarget.Controller
 {
-    public Transform Target;
-    public bool smooth = true;
-    public float damping = 6.0f;
-	
-    void LateUpdate()
+    public class LookAtTargetController : MonoBehaviour
     {
-        if (Target!=null)
+        public Transform Target;
+        public bool smooth = true;
+        public float damping = 6.0f;
+
+        private void LateUpdate()
         {
-            if (smooth)
+            if (Target != null)
             {
-                var rotation = Quaternion.LookRotation(Target.position - transform.position);
-                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
-            }
-            else
-            {
-                transform.LookAt(Target);
+                if (smooth)
+                {
+                    var rotation = Quaternion.LookRotation(Target.position - transform.position);
+                    transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
+                }
+                else
+                {
+                    transform.LookAt(Target);
+                }
             }
         }
     }
-}
+} 

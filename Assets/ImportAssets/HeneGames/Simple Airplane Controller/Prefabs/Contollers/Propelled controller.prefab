@@ -496,7 +496,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3118200195582686185}
-  - component: {fileID: 8793844478064349485}
   - component: {fileID: 1991350558367045345}
   m_Layer: 0
   m_Name: Propelled controller
@@ -522,49 +521,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8793844478064349485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3118200195582686184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d236260ee0d659a4383b8680de7ec2ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  airplaneState: 0
-  trailThickness: 0.045
-  wingTrailEffects:
-  - {fileID: 501853650137377961}
-  - {fileID: 501853649413067070}
-  yawSpeed: 50
-  pitchSpeed: 100
-  rollSpeed: 200
-  yawTurboMultiplier: 0.3
-  pitchTurboMultiplier: 0.5
-  rollTurboMultiplier: 1
-  defaultSpeed: 20
-  turboSpeed: 40
-  accelerating: 10
-  deaccelerating: 5
-  sidewaysMovement: 15
-  sidewaysMovementXRot: 0.012
-  sidewaysMovementYRot: 0.93
-  sidewaysMovementYPos: 0.046
-  engineSoundSource: {fileID: 3118200195265258894}
-  maxEngineSound: 1
-  defaultSoundPitch: 1
-  turboSoundPitch: 1.5
-  propelSpeedMultiplier: 100
-  propellers:
-  - {fileID: 8243289661986577120}
-  turbineLightDefault: 1
-  turbineLightTurbo: 5
-  turbineLights: []
-  crashCollidersRoot: {fileID: 4161007931868080319}
-  takeoffLenght: 30
 --- !u!54 &1991350558367045345
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1572,7 +1528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea6bf9033feb8da4b809d7e517cd3e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  airPlaneController: {fileID: 8793844478064349485}
+  airPlaneController: {fileID: 0}
   freeLook: {fileID: 5821500121559426816}
   cameraDefaultFov: 40
   cameraTurboFov: 60
@@ -1721,10 +1677,5 @@ PrefabInstance:
 --- !u!4 &2345333671597282970 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6805621848954614139, guid: b3153dc28bdb00f40aec34c24f96c7ec, type: 3}
-  m_PrefabInstance: {fileID: 9150788394580846561}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8243289661986577120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 907525670699941121, guid: b3153dc28bdb00f40aec34c24f96c7ec, type: 3}
   m_PrefabInstance: {fileID: 9150788394580846561}
   m_PrefabAsset: {fileID: 0}

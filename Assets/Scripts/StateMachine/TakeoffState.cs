@@ -1,6 +1,7 @@
-using HeheGames.Simple_Airplane_Controller;
 
-namespace StateMachine
+using AirPlaneSystems;
+
+namespace StateMachines
 {
     public class TakeoffState : State
     {

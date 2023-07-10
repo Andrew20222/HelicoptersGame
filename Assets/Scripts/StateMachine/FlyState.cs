@@ -1,6 +1,7 @@
-using HeheGames.Simple_Airplane_Controller;
+using AirPlaneSystems;
+using HeneGames.Airplane;
 
-namespace StateMachine
+namespace StateMachines
 {
     public class FlyState : State
     {

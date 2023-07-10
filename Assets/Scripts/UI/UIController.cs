@@ -1,72 +1,67 @@
-using HeheGames.Simple_Airplane_Controller;
+using AirPlaneSystems;
+using Data.Stats;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
 
-public class UIController : MonoBehaviour
+namespace GameUI
 {
-    [SerializeField] private Stats stats;
-    [SerializeField] private Image imageScore;
-    [SerializeField] private TMP_Text levelText;
-    [SerializeField] private AirPlaneController planeController;
-
-    [SerializeField] private TMP_Text speedText;
-
-    [SerializeField] private GameObject playerPanel;
-
-    [SerializeField] private GameObject settingPanel;
-    
-    private void OnEnable()
+    public class UIController : MonoBehaviour
     {
-        if (stats != null)
+        [SerializeField] private AirPlaneController planeController;
+        [SerializeField] private Stats stats;
+        [SerializeField] private TMP_Text speedText;
+
+        private void OnEnable()
         {
-            stats.UpdateScore += ShowScore;
-            stats.UpdateLevel += ShowLevel;
+            if (stats != null)
+            {
+                stats.UpdateScore += ShowScore;
+                stats.UpdateLevel += ShowLevel;
+            }
         }
-    }
 
-    private void Update()
-    {
-        ShowSpeed();
-        ShowScore(stats.Score);
-    }
-
-    public void Play()
-    {
-    }
-
-    public void Setting()
-    {
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
-
-    private void OnDisable()
-    {
-        if (stats != null)
+        private void Update()
         {
-            stats.UpdateScore -= ShowScore;
-            stats.UpdateLevel -= ShowLevel;
+            ShowSpeed();
+            ShowScore(stats.Score);
         }
-    }
 
-    private void ShowScore(float score)
-    {
-        imageScore.fillAmount = score;
-    }
+        public void Play()
+        {
+        }
 
-    private void ShowLevel(float level)
-    {
-        levelText.text = $"Level: {level}";
-    }
+        public void Setting()
+        {
+        }
 
-    private void ShowSpeed()
-    {
-        speedText.text = planeController.CurrentSpeed().ToString();
-    }
+        public void Quit()
+        {
+            Application.Quit();
+        }
 
+        private void OnDisable()
+        {
+            if (stats != null)
+            {
+                stats.UpdateScore -= ShowScore;
+                stats.UpdateLevel -= ShowLevel;
+            }
+        }
+
+        private void ShowScore(float score)
+        {
+
+        }
+
+        private void ShowLevel(float level)
+        {
+
+        }
+
+        private void ShowSpeed()
+        {
+            speedText.text = planeController.CurrentSpeed().ToString();
+        }
+
+    }
 }

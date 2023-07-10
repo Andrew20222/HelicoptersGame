@@ -1,18 +1,21 @@
 ﻿using System;
+using Data.Stats;
 using UnityEngine;
 
-public class Checkpoint : MonoBehaviour
+namespace CheckPoints
 {
-    [SerializeField] 
-    private float checkPointScore;
-    
-    public Action CheckpointActivated;
-    public Stats score;
-
-    private void OnTriggerEnter(Collider other)
+    public class Checkpoint : MonoBehaviour
     {
-        if (CheckpointActivated != null) CheckpointActivated();
-        score.ScoreUpdate(checkPointScore);
-        score.CheckScore();
+        [SerializeField] private float checkPointScore;
+
+        public Action CheckpointActivated;
+        public Stats score;
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (CheckpointActivated != null) CheckpointActivated();
+            score.ScoreUpdate(checkPointScore);
+            score.CheckScore();
+        }
     }
 }

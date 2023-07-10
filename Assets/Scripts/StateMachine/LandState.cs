@@ -1,6 +1,7 @@
-using HeheGames.Simple_Airplane_Controller;
 
-namespace StateMachine
+using AirPlaneSystems;
+
+namespace StateMachines
 {
     public class LandState : State
     {
@@ -17,7 +18,7 @@ namespace StateMachine
 
         public override void Exit()
         {
-            //
+           //
         }
     }
 }

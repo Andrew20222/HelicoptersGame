@@ -1,36 +1,27 @@
-using System;
-using HeheGames.Simple_Airplane_Controller;
+using AirPlaneSystems;
+using HeneGames.Airplane;
+using State.Enums;
 using UnityEngine;
-using Zenject;
 
 namespace Inputs
 {
     public class InputProvider : MonoBehaviour
     {
+        [SerializeField] private AirPlaneController _movable;
         private float _inputH;
         private float _inputV;
         private bool _inputYawLeft;
         private bool _inputYawRight;
         private bool _inputTurbo;
-        [SerializeField]private AirPlaneController _movable;
-
-        // [Inject]
-        // private void Construct(AirPlaneController movable)
-        // {
-        //     _movable = movable;
-        // }
 
         private void Update()
         {
-            //Rotate inputs
             _inputH = Input.GetAxis("Horizontal");
             _inputV = Input.GetAxis("Vertical");
-
-            //Yaw axis inputs
+            
             _inputYawLeft = Input.GetKey(KeyCode.Q);
             _inputYawRight = Input.GetKey(KeyCode.E);
 
-            //Turbo
             _inputTurbo = Input.GetKey(KeyCode.LeftShift);
 
             SetValueInputs();
@@ -38,6 +29,8 @@ namespace Inputs
 
         private void SetValueInputs()
         {
+            if(_movable.airplaneState == AirplaneState.Landing) return;
+            
             if(!_movable.PlaneIsDead())
                 _movable.Move(_inputH, _inputV, _inputYawRight, _inputYawLeft, _inputTurbo);
         }
