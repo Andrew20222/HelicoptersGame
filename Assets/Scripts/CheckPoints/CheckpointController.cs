@@ -1,53 +1,69 @@
-﻿using CheckPoints.LookAtTarget.Controller;
+﻿using System.Collections.Generic;
+using System.Linq;
+using CheckPoints.LookAtTarget.Controller;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace CheckPoints.Controller
 {
     public class CheckpointController : MonoBehaviour
     {
-        [SerializeField] private Checkpoint[] CheckpointsList;
-        [SerializeField] private LookAtTargetController Arrow;
+        [SerializeField] private List<Checkpoint> checkpointsList;
+        [SerializeField] private LookAtTargetController arrow;
 
-        private Checkpoint CurrentCheckpoint;
-        private int CheckpointId;
+        private Checkpoint _currentCheckpoint;
+        private int _checkpointId;
 
-        void Start()
+        private void Start()
         {
-            if (CheckpointsList.Length == 0) return;
+            if (checkpointsList.Count == 0) return;
 
-            for (int i = 0; i < CheckpointsList.Length; i++)
-                CheckpointsList[i].gameObject.SetActive(false);
+            for (int i = 0; i < checkpointsList.Count; i++)
+                checkpointsList[i].gameObject.SetActive(false);
 
-            CheckpointId = 0;
-            SetCurrentCheckpoint(CheckpointsList[CheckpointId]);
+            _checkpointId = 0;
+            SetCurrentCheckpoint(checkpointsList[_checkpointId]);
+        }
+
+        public bool CheckPointsIsZero()
+        {
+            if (checkpointsList.Count == 0)
+            {
+                return true;
+            }
+
+            return false;
         }
 
         private void SetCurrentCheckpoint(Checkpoint checkpoint)
         {
-            if (CurrentCheckpoint != null)
+            if (_currentCheckpoint != null)
             {
-                CurrentCheckpoint.gameObject.SetActive(false);
-                CurrentCheckpoint.CheckpointActivated -= CheckpointActivated;
+                _currentCheckpoint.gameObject.SetActive(false);
+                _currentCheckpoint.CheckpointActivated -= CheckpointActivated;
             }
 
-            CurrentCheckpoint = checkpoint;
-            CurrentCheckpoint.CheckpointActivated += CheckpointActivated;
-            Arrow.Target = CurrentCheckpoint.transform;
-            CurrentCheckpoint.gameObject.SetActive(true);
+            _currentCheckpoint = checkpoint;
+            _currentCheckpoint.CheckpointActivated += CheckpointActivated;
+            arrow.Target = _currentCheckpoint.transform;
+            _currentCheckpoint.gameObject.SetActive(true);
         }
 
         private void CheckpointActivated()
         {
-            CheckpointId++;
-            if (CheckpointId >= CheckpointsList.Length)
+            checkpointsList.Remove(_currentCheckpoint);
+
+            if (_checkpointId >= checkpointsList.Count)
             {
-                CurrentCheckpoint.gameObject.SetActive(false);
-                CurrentCheckpoint.CheckpointActivated -= CheckpointActivated;
-                Arrow.gameObject.SetActive(false);
+                _currentCheckpoint.gameObject.SetActive(false);
+                _currentCheckpoint.CheckpointActivated -= CheckpointActivated;
+                arrow.gameObject.SetActive(false);
                 return;
             }
 
-            SetCurrentCheckpoint(CheckpointsList[CheckpointId]);
+            SetCurrentCheckpoint(checkpointsList[_checkpointId]);
         }
+
+
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-namespace HeneGames.Airplane
+namespace GameUI
 {
     public class RunwayUIController : MonoBehaviour
     {

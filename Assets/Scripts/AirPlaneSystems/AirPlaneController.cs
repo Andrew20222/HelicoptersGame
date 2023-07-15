@@ -1,7 +1,6 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections.Generic;
-using HeneGames.Airplane;
 using Mechanics.Movement;
 using State.Enums;
 
@@ -84,6 +83,8 @@ namespace AirPlaneSystems
         [Tooltip("How far must the plane be from the runway before it can be controlled again")]
         [SerializeField] private float takeoffLenght = 30f;
 
+        private AirplaneState _airplaneState1;
+
         public event Action TurboInput;
         public event Action NotTurboInput;
         public event Action<float> TrailEffect;
@@ -134,9 +135,8 @@ namespace AirPlaneSystems
             {
                 TrailEffect?.Invoke(0f);
             }
-
-            //Crash
-            if (!_planeIsDead && HitSometing())
+            
+            if (!_planeIsDead && HitSomething())
             {
                 Crash();
             }
@@ -330,10 +330,10 @@ namespace AirPlaneSystems
                 _rb.useGravity = false;
                 _rb.isKinematic = true;
                 _rb.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-            }
+            }        
         }
         
-        private bool HitSometing()
+        private bool HitSomething()
         {
             for (int i = 0; i < _airPlaneColliders.Count; i++)
             {
@@ -353,18 +353,15 @@ namespace AirPlaneSystems
 
         private void Crash()
         {
-            //Set rigidbody to non cinematic
             _rb.isKinematic = false;
             _rb.useGravity = true;
-
-            //Change every collider trigger state and remove rigidbodys
+            
             for (int i = 0; i < _airPlaneColliders.Count; i++)
             {
                 _airPlaneColliders[i].GetComponent<Collider>().isTrigger = false;
                 Destroy(_airPlaneColliders[i].GetComponent<Rigidbody>());
             }
-
-            //Kill player
+            
             _planeIsDead = true;
         }
 
@@ -386,6 +383,11 @@ namespace AirPlaneSystems
         public bool PlaneIsDead()
         {
             return _planeIsDead;
+        }
+
+        public AirplaneState AirplaneState
+        {
+            get => airplaneState;
         }
 
         public bool UsingTurbo()

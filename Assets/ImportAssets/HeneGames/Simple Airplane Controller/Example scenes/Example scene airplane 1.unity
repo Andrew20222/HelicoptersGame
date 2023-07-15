@@ -364,7 +364,7 @@ PrefabInstance:
     - target: {fileID: 763570320036030817, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: airPlaneController
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1715406625}
     - target: {fileID: 1991350558367045345, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_UseGravity
       value: 1
@@ -555,6 +555,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
+--- !u!1 &767617961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3027414116231860192, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
+  m_PrefabInstance: {fileID: 696173061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &767617962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767617961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff51ae6c73555db4d9acc272efe08470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
 --- !u!1 &921702251
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,11 +822,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206868647}
   m_CullTransparentMesh: 1
---- !u!82 &1688122624 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3118200195265258894, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
-  m_PrefabInstance: {fileID: 696173061}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1715406621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3118200195582686184, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
@@ -827,8 +840,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   airplaneState: 0
-  trailThickness: 0.045
-  wingTrailEffects: []
   yawSpeed: 50
   pitchSpeed: 100
   rollSpeed: 200
@@ -838,22 +849,27 @@ MonoBehaviour:
   defaultSpeed: 10
   turboSpeed: 20
   accelerating: 10
-  deaccelerating: 5
+  deacelerating: 5
   sidewaysMovement: 15
   sidewaysMovementXRot: 0.012
   sidewaysMovementYRot: 1.5
   sidewaysMovementYPos: 0.1
-  engineSoundSource: {fileID: 1688122624}
-  maxEngineSound: 1
-  defaultSoundPitch: 1
-  turboSoundPitch: 1.5
-  propelSpeedMultiplier: 100
-  propellers: []
-  turbineLightDefault: 1
-  turbineLightTurbo: 5
-  turbineLights: []
+  trailThickness: 0.045
   crashCollidersRoot: {fileID: 619708138}
   takeoffLenght: 30
+--- !u!114 &1715406628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715406621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8ab2083151dc7468677210eb43d7f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movable: {fileID: 1715406625}
 --- !u!1 &2052681685
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,66 +1,75 @@
 using AirPlaneSystems;
 using Data.Stats;
+using GameLogics;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace GameUI
 {
     public class UIController : MonoBehaviour
     {
         [SerializeField] private AirPlaneController planeController;
+        [SerializeField] private EndGameView endGameView;
         [SerializeField] private Stats stats;
         [SerializeField] private TMP_Text speedText;
+        [SerializeField] private TMP_Text levelText;
+        [SerializeField] private Button restartButton;
+        [SerializeField] private Button winButton;
+       
+
 
         private void OnEnable()
         {
             if (stats != null)
             {
-                stats.UpdateScore += ShowScore;
                 stats.UpdateLevel += ShowLevel;
+                endGameView.Win += ShowLevel;
             }
+            
+            restartButton.onClick.AddListener(RestartLevel);
+            winButton.onClick.AddListener(WinLevel);
         }
 
         private void Update()
         {
             ShowSpeed();
-            ShowScore(stats.Score);
         }
-
-        public void Play()
+        private void RestartLevel()
         {
+            SceneManager.LoadScene(2);
         }
 
-        public void Setting()
+        private void WinLevel()
         {
+            SceneManager.LoadScene(1);
         }
-
-        public void Quit()
-        {
-            Application.Quit();
-        }
-
+        
         private void OnDisable()
         {
             if (stats != null)
             {
-                stats.UpdateScore -= ShowScore;
                 stats.UpdateLevel -= ShowLevel;
+                endGameView.Win -= ShowLevel;
             }
-        }
-
-        private void ShowScore(float score)
-        {
-
+            
+            restartButton.onClick.RemoveListener(RestartLevel);
+            winButton.onClick.RemoveListener(WinLevel);
         }
 
         private void ShowLevel(float level)
         {
-
+            levelText.text = $"Level: {level}";
+        }
+        private void ShowLevel()
+        {
+            levelText.text = $"Level: {stats.StatsData.Level}";
         }
 
         private void ShowSpeed()
         {
-            speedText.text = planeController.CurrentSpeed().ToString();
+            speedText.text = planeController.CurrentSpeed().ToString("0") + "Km/h";
         }
 
     }

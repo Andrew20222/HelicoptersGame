@@ -1,3 +1,5 @@
+using System.Collections;
+using Character;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,37 +13,95 @@ namespace Characters.GameUI.CharacterSelection
         [SerializeField] private Button arrowToLeft;
         [SerializeField] private Button arrowToRight;
         [SerializeField] private Button buttonSelectCharacter;
+        [SerializeField] private Button buttonBuyCharacter;
         [SerializeField] private TMP_Text textSelectCharacter;
+        [SerializeField] private TMP_Text textPrice;
         [SerializeField] private Button playButton;
-
+        [SerializeField] private Slider speedSlider;
+        [SerializeField] private Slider weightSlider;
+        
+        private string _statusCheck;
         private int _indexCharacter;
-        private int _indexCurrentCharacter;
+        private int _check;
+
+        private void Update()
+        {
+            speedSlider.value = allCharacters[_indexCharacter].GetComponent<Item>().Speed;
+            weightSlider.value = allCharacters[_indexCharacter].GetComponent<Item>().Weight;
+        }
 
         private void Start()
         {
-            if (PlayerPrefs.HasKey("CurrentCharacter"))
+            DataController.Data = new Dates.Data
             {
-                _indexCharacter = PlayerPrefs.GetInt("CurrentCharacter");
-                _indexCurrentCharacter = PlayerPrefs.GetInt("CurrentCharacter");
+                Money = 500
+            };
+
+            if (PlayerPrefs.HasKey("SaveGame"))
+            {
+                DataController.Data = JsonUtility.FromJson<Dates.Data>(PlayerPrefs.GetString("SaveGame"));
             }
             else
             {
-                _indexCharacter = 0;
-                PlayerPrefs.SetInt("CurrentCharacter", _indexCharacter);
+                PlayerPrefs.SetString("SaveGame", JsonUtility.ToJson(DataController.Data));
             }
-
+                
             SetActiveCharacter();
 
-            buttonSelectCharacter.gameObject.SetActive(false);
-            textSelectCharacter.gameObject.SetActive(true);
+            if (DataController.Data.CurrentCharacter == allCharacters[_indexCharacter].name)
+            {
+                buttonBuyCharacter.gameObject.SetActive(false);
+                buttonSelectCharacter.gameObject.SetActive(false);
+                textSelectCharacter.gameObject.SetActive(true);
+            }
+            else if (DataController.Data.CurrentCharacter != allCharacters[_indexCharacter].name)
+            {
+                StartCoroutine(CheckHaveCharacters());
+            }
 
+            
             UpdateArrowVisibility();
 
             playButton.onClick.AddListener(ChangeScene);
             arrowToLeft.onClick.AddListener(ArrowLeft);
             arrowToRight.onClick.AddListener(ArrowRight);
             buttonSelectCharacter.onClick.AddListener(SelectCharacter);
+            buttonBuyCharacter.onClick.AddListener(BuyCharacter);
         }
+
+        private IEnumerator CheckHaveCharacters()
+        {
+            while (_statusCheck != "Check")
+            {
+                if (DataController.Data.HaveCharacters.Count != _check)
+                {
+                    if (allCharacters[_indexCharacter].name != DataController.Data.HaveCharacters[_check])
+                    {
+                        _check++;
+                    }
+                    else if (allCharacters[_indexCharacter].name == DataController.Data.HaveCharacters[_check])
+                    {
+                        textSelectCharacter.gameObject.SetActive(false);
+                        buttonBuyCharacter.gameObject.SetActive(false);
+                        buttonSelectCharacter.gameObject.SetActive(true);
+                        _check = 0;
+                        _statusCheck = "Check";
+                    }
+                }
+                else if (DataController.Data.HaveCharacters.Count == _check)
+                {
+                    textSelectCharacter.gameObject.SetActive(false);
+                    buttonBuyCharacter.gameObject.SetActive(true);
+                    textPrice.text = allCharacters[_indexCharacter].GetComponent<Item>().PriceCharacter.ToString();
+                    _check = 0;
+                    _statusCheck = "Check";
+                }
+            }
+
+            _statusCheck = " ";
+            yield return null;
+        }
+        
 
         private void SetActiveCharacter()
         {
@@ -73,15 +133,15 @@ namespace Characters.GameUI.CharacterSelection
                 allCharacters[_indexCharacter].SetActive(true);
                 UpdateArrowVisibility();
 
-                if (_indexCurrentCharacter == _indexCharacter)
+                if (DataController.Data.CurrentCharacter == allCharacters[_indexCharacter].name)
                 {
+                    buttonBuyCharacter.gameObject.SetActive(false);
                     buttonSelectCharacter.gameObject.SetActive(false);
                     textSelectCharacter.gameObject.SetActive(true);
                 }
-                else
+                else if (DataController.Data.CurrentCharacter != allCharacters[_indexCharacter].name)
                 {
-                    buttonSelectCharacter.gameObject.SetActive(true);
-                    textSelectCharacter.gameObject.SetActive(false);
+                    StartCoroutine(CheckHaveCharacters());
                 }
             }
         }
@@ -95,25 +155,39 @@ namespace Characters.GameUI.CharacterSelection
                 allCharacters[_indexCharacter].SetActive(true);
                 UpdateArrowVisibility();
 
-                if (_indexCurrentCharacter == _indexCharacter)
+                if (DataController.Data.CurrentCharacter == allCharacters[_indexCharacter].name)
                 {
+                    buttonBuyCharacter.gameObject.SetActive(false);
                     buttonSelectCharacter.gameObject.SetActive(false);
                     textSelectCharacter.gameObject.SetActive(true);
                 }
-                else
+                else if (DataController.Data.CurrentCharacter != allCharacters[_indexCharacter].name)
                 {
-                    buttonSelectCharacter.gameObject.SetActive(true);
-                    textSelectCharacter.gameObject.SetActive(false);
+                    StartCoroutine(CheckHaveCharacters());
                 }
             }
         }
 
         private void SelectCharacter()
         {
-            PlayerPrefs.SetInt("CurrentCharacter", _indexCharacter);
-            _indexCurrentCharacter = _indexCharacter;
+            DataController.Data = JsonUtility.FromJson<Dates.Data>(PlayerPrefs.GetString("SaveGame"));
+            DataController.Data.CurrentCharacter = allCharacters[_indexCharacter].name;
+            PlayerPrefs.SetString("SaveGame", JsonUtility.ToJson(DataController.Data));
             buttonSelectCharacter.gameObject.SetActive(false);
             textSelectCharacter.gameObject.SetActive(true);
+        }
+        private void BuyCharacter()
+        {
+            if (DataController.Data.Money >= allCharacters[_indexCharacter].GetComponent<Item>().PriceCharacter)
+            {
+                DataController.Data = JsonUtility.FromJson<Dates.Data>(PlayerPrefs.GetString("SaveGame"));
+                DataController.Data.Money -= allCharacters[_indexCharacter].GetComponent<Item>().PriceCharacter;
+                DataController.Data.HaveCharacters.Add(allCharacters[_indexCharacter].name);
+                PlayerPrefs.SetString("SaveGame", JsonUtility.ToJson(DataController.Data));
+                
+                buttonBuyCharacter.gameObject.SetActive(false);
+                buttonSelectCharacter.gameObject.SetActive(true);
+            }
         }
 
         private void ChangeScene()
@@ -127,6 +201,7 @@ namespace Characters.GameUI.CharacterSelection
             arrowToLeft.onClick.RemoveListener(ArrowLeft);
             arrowToRight.onClick.RemoveListener(ArrowRight);
             buttonSelectCharacter.onClick.RemoveListener(SelectCharacter);
+            buttonBuyCharacter.onClick.RemoveListener(BuyCharacter);
         }
     }
 }

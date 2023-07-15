@@ -1,3 +1,5 @@
+using Character;
+using Characters.GameUI.CharacterSelection;
 using TMPro;
 using UnityEngine;
 
@@ -7,33 +9,48 @@ namespace MoneySystem.Controlls
     {
         public TMP_Text MoneyText;
 
-        private int money;
-
         private void Start()
         {
-            money = 1000;
+            Load();
             UpdateMoneyLabel();
+        }
+
+        private void Save()
+        {
+            PlayerPrefs.SetString("SaveGame", JsonUtility.ToJson(DataController.Data));
+        }
+
+        private void Load()
+        {
+            if (PlayerPrefs.HasKey("SaveGame"))
+            {
+                DataController.Data = JsonUtility.FromJson<Dates.Data>(PlayerPrefs.GetString("SaveGame"));
+            }
         }
 
         public void AddMoney(int amount)
         {
-            money += amount;
+            Load();
+            DataController.Data.Money += amount;
             UpdateMoneyLabel();
+            Save();
         }
         public bool HasEnoughMoney(int amount)
         {
-            return money >= amount;
+            return DataController.Data.Money >= amount;
         }
 
         public void SubtractMoney(int amount)
         {
-            money -= amount;
+            Load();
+            DataController.Data.Money -= amount;
             UpdateMoneyLabel();
+            Save();
         }
 
         private void UpdateMoneyLabel()
         {
-            MoneyText.text = "$" + money;
+            MoneyText.text = "$" + DataController.Data.Money;
         }
     }
 }

@@ -1,3 +1,4 @@
+
 using CheckPoints;
 using LandingSystem.Areas;
 using UnityEngine;
@@ -6,8 +7,12 @@ namespace AirPlaneSystems
 {
     public class AirPlaneCollider : MonoBehaviour
     {
-        private bool collideSomething;
-        public bool CollideSomething { get; set; }
+        private bool _collideSomething;
+        public bool CollideSomething
+        {
+            get => _collideSomething;
+            set => _collideSomething = value;
+        }
         
         [HideInInspector] public AirPlaneController controller;
 
@@ -16,12 +21,12 @@ namespace AirPlaneSystems
             if (other.GetComponent<AirPlaneCollider>() == null &&
                 other.GetComponent<LandingArea>() == null)
             {
-                collideSomething = true;
+                _collideSomething = true;
             }
 
             if (other.GetComponent<Checkpoint>())
             {
-                collideSomething = false;
+                _collideSomething = false;
             }
         }
     }
